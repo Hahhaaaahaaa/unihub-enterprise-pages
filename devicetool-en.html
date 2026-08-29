@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAREU Keyboard & Mouse Tester</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <style>
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, 'Source Han Sans SC', 'Noto Sans SC', '思源黑体', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* 头部样式 */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 40px 40px 40px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    gap: 60px;
+}
+
+.condition-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    opacity: 0; /* 默认隐藏 */
+    transition: opacity 0.3s ease; /* 平滑过渡效果 */
+}
+
+.condition-image.keyboard {
+    top: 7px;
+    left: -25px;
+}
+
+.condition-image.mouse {
+    top: 11px;
+    left: 180px;
+}
+
+.condition-image.active {
+    opacity: 1;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #666;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.nav-btn.active {
+    background-color: transparent;
+    color: #f39066;
+}
+
+.nav-btn:hover {
+    background-color: #ff6b35;
+    color: #fff;
+}
+
+/* 测试区域样式 */
+.test-section {
+    margin: 0 auto;
+    width: 1500px;
+    height: 680px;
+    display: none;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.test-section.active {
+    display: block;
+}
+
+/* 键盘测试样式 */
+.keyboard-container {
+    width: 1152px;
+    height: 375px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-right: 30px;
+}
+
+.key-row {
+    display: flex;
+    gap: 2px;
+}
+
+.key {
+    width: 48px;
+    height: 48px;
+    background-color: #d8d8d8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    /* transition: all 0.2s ease; */
+    position: relative;
+}
+
+.key:hover {
+    background-color: #d0d0d0;
+}
+
+.key.pressed {
+    background-color: #ff6b35;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.key.used{
+    background-color: #f8b18d;
+    opacity: 0.8;
+}
+
+/* 状态指示点样式 */
+.status-legend {
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* 不同状态的颜色 */
+.status-dot.default {
+    background-color: #d8d8d8; /* 按键初始状态 */
+}
+
+.status-dot.active {
+    background-color: #ff6b35; /* 按键激活状态 */
+}
+
+.status-dot.pressed {
+    background-color: #f8b18d; /* 按过后状态 */
+}
+
+.key-60px {
+    width: 60px;
+}
+.key-62px {
+    width: 62px;
+}
+.key-72px {
+    width: 72px;
+}
+.key-84px {
+    width: 84px;
+}
+.key-96px {
+    width: 96px;
+}
+.key-110px {
+    width: 110px;
+}
+.key-134px {
+    width: 134px;
+    margin-right: 64px;
+}
+.key-306px {
+    width: 310px;
+}
+
+.keyboard-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.status-item input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+/* 统计信息样式 */
+.statistics {
+    width: 1152px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-item {
+    width: 270px;
+    height: 204px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-number {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.apmMax-value{
+    color: #ff6b35; 
+}
+
+/* 按键记录表格样式 */
+.record {
+    width: 270px;
+    height: 610px; 
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.record-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    table-layout: fixed;
+}
+
+.record-content {
+    /* 占据剩余空间使得按钮固定在底部 */
+    flex: 1 1 auto;
+    min-height: 0;/* 允许子元素缩小并触发滚动 */
+    position: relative;
+}
+
+.record-actions {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0 0 0;
+    /* 保证始终在容器底部 */
+    flex: 0 0 auto;
+}
+
+/* 固定表头 */
+.record-content table thead {
+    position: sticky;
+    top: -1px;
+    background-color: #f3f3f3;
+}
+
+.record-table th {
+    color: #333;
+    font-weight: normal;
+    padding: 0px 8px 10px 8px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.record-table thead tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.record-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: -2px;
+}
+
+.record-table td {
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    vertical-align: middle; 
+}
+
+/* 表体可滚动 */
+.record-table tbody {
+    display: block;
+    width: 260px;
+    overflow-y: auto;
+    max-height: 500px;
+    width: 100%;
+    scrollbar-gutter: stable;
+}
+
+/* 为表格中的按键列添加灰色背景 */
+.record-table td:first-child {
+    background-color: #d8d8d8;
+    width: 80px;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* 重置按钮样式 */
+.reset-btn {
+    width: 245px;
+    height: 28px;
+    border: none;
+    background-color: #ff6b35;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.1s ease;
+    outline: none;
+}
+
+/* 鼠标测试样式 */
+.mouse-container {
+    width: 441px;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 33px;
+    vertical-align: top;
+    margin-right: 35px;
+}
+
+.mouse-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    width: 100%;
+}
+
+.mouse-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 25px 15px;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    width: 180px;
+    height: 170px;
+}
+
+.mouse-stat-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1;
+}
+
+.mouse-stat-label {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.mouse-visual {
+    position: relative;
+    display: inline-block;
+    width: 641px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+.mouse-visual img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mouse-visual .btnimg1,
+.mouse-visual .btnimg2 {
+    visibility: collapse;
+}
+
+.mouse-visual .btnimg1 {
+    opacity: 0.5;
+}
+
+.mouse-visual .btnimg1.pressed,
+.mouse-visual .btnimg2.pressed {
+    visibility: visible;
+}
+
+/* 禁止测试工具界面的文本和图片选中 */
+.test-section, .nav-btn, .key, .mouse-stat-item, .stat-item, 
+.mouse-visual, .mouse-visual img {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* 标准属性 */
+}
+
+@media screen and (max-width: 1920px) {
+  .test-section {
+    transform-origin: 50% 0 ;
+    transform: scale(0.9) ;
+  }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+  .test-section {
+    transform-origin: 50% 0 ;
+    transform: scale(1.2) ;
+  }
+}
+
+@media screen and (min-width: 2561px) and (max-width: 3840px) {
+  .test-section {
+    transform-origin: 50% 0 ;
+    transform: scale(1.7) ;
+  }
+}
+
+@media screen and (min-width: 3841px) {
+  .test-section {
+    transform: scale(3.5);
+  }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <div class="logo">
+                <img src="./images/tools//Dareu-Logo.png" alt="DAREU" draggable="false">
+            </div>
+            <div class="nav">
+                <img src="./images/tools/activeKeyboard.png" id="activeKeyboard-icon" alt="keyboard" class="condition-image keyboard active" draggable="false">
+                <img src="./images/tools//Keyboard.png" id="Keyboard-icon" alt="keyboard" class="condition-image keyboard" draggable="false">
+                <button class="nav-btn active" id="keyboardBtn">Keyboard key test</button>
+                <img src="./images/tools//activeMouse.png" id="activeMouse-icon" alt="mouse" class="condition-image mouse" draggable="false">
+                <img src="./images/tools//Mouse.png" id="Mouse-icon" alt="mouse" class="condition-image mouse active" draggable="false">
+                <button class="nav-btn" id="mouseBtn">Mouse button test</button>
+            </div>
+        </header>
+
+        <!-- 键盘测试界面 -->
+        <div id="keyboard" class="test-section active scale-up">
+            <!-- 键盘可视化 -->
+            <div class="keyboard-container">
+                <div class="keyboard">
+                    <!-- 第一行 -->
+                    <div class="key-row" style="margin-bottom: 14px;">
+                        <div class="key" data-key="Escape" style="margin-right: 49px;">Esc</div>
+                        <div class="key" data-key="F1">F1</div>
+                        <div class="key" data-key="F2">F2</div>
+                        <div class="key" data-key="F3">F3</div>
+                        <div class="key" data-key="F4" style="margin-right: 22px;">F4</div>
+                        <div class="key" data-key="F5">F5</div>
+                        <div class="key" data-key="F6">F6</div>
+                        <div class="key" data-key="F7">F7</div>
+                        <div class="key" data-key="F8" style="margin-right: 22px;">F8</div>
+                        <div class="key" data-key="F9">F9</div>
+                        <div class="key" data-key="F10">F10</div>
+                        <div class="key" data-key="F11">F11</div>
+                        <div class="key" data-key="F12" style="margin-right: 17px;">F12</div>
+                        <div class="key" data-key="PrintScreen">Print</div>
+                        <div class="key" data-key="ScrollLock">Scroll</div>
+                        <div class="key" data-key="Pause">Pause</div>
+                    </div>
+                    <!-- 第二行 -->
+                    <div class="key-row">
+                        <div class="key" data-key="Backquote">`</div>
+                        <div class="key" data-key="Digit1">1</div>
+                        <div class="key" data-key="Digit2">2</div>
+                        <div class="key" data-key="Digit3">3</div>
+                        <div class="key" data-key="Digit4">4</div>
+                        <div class="key" data-key="Digit5">5</div>
+                        <div class="key" data-key="Digit6">6</div>
+                        <div class="key" data-key="Digit7">7</div>
+                        <div class="key" data-key="Digit8">8</div>
+                        <div class="key" data-key="Digit9">9</div>
+                        <div class="key" data-key="Digit0">0</div>
+                        <div class="key" data-key="Minus">-</div>
+                        <div class="key" data-key="Equal">=</div>
+                        <div class="key key-96px" data-key="Backspace" style="margin-right: 13px;">Backspace</div>
+                        <div class="key" data-key="Insert">Ins</div>
+                        <div class="key" data-key="Home">Home</div>
+                        <div class="key" data-key="PageUp" style="margin-right: 13px;">PgUp</div>
+                        <div class="key" data-key="NumLock">Num</div>
+                        <div class="key" data-key="NumpadDivide">/</div>
+                        <div class="key" data-key="NumpadMultiply">*</div>
+                        <div class="key" data-key="NumpadSubtract">-</div>
+                    </div>
+                    <!-- 第三行 -->
+                    <div class="key-row">
+                        <div class="key key-72px" data-key="Tab">Tab</div>
+                        <div class="key" data-key="KeyQ">Q</div>
+                        <div class="key" data-key="KeyW">W</div>
+                        <div class="key" data-key="KeyE">E</div>
+                        <div class="key" data-key="KeyR">R</div>
+                        <div class="key" data-key="KeyT">T</div>
+                        <div class="key" data-key="KeyY">Y</div>
+                        <div class="key" data-key="KeyU">U</div>
+                        <div class="key" data-key="KeyI">I</div>
+                        <div class="key" data-key="KeyO">O</div>
+                        <div class="key" data-key="KeyP">P</div>
+                        <div class="key" data-key="BracketLeft">[</div>
+                        <div class="key" data-key="BracketRight">]</div>
+                        <div class="key key-72px" data-key="Backslash" style="margin-right: 13px;">\</div>
+                        <div class="key" data-key="Delete">Del</div>
+                        <div class="key" data-key="End">End</div>
+                        <div class="key" data-key="PageDown" style="margin-right: 13px;">PgDn</div>
+                        <div class="key" data-key="Numpad7">7</div>
+                        <div class="key" data-key="Numpad8">8</div>
+                        <div class="key" data-key="Numpad9">9</div>
+                        <div class="key" style="margin: 0 0 -50px 0px; height: 98px;" data-key="NumpadAdd">+</div>
+                    </div>
+                    <!-- 第四行 -->
+                    <div class="key-row">
+                        <div class="key key-84px" data-key="CapsLock">Caps</div>
+                        <div class="key" data-key="KeyA">A</div>
+                        <div class="key" data-key="KeyS">S</div>
+                        <div class="key" data-key="KeyD">D</div>
+                        <div class="key" data-key="KeyF">F</div>
+                        <div class="key" data-key="KeyG">G</div>
+                        <div class="key" data-key="KeyH">H</div>
+                        <div class="key" data-key="KeyJ">J</div>
+                        <div class="key" data-key="KeyK">K</div>
+                        <div class="key" data-key="KeyL">L</div>
+                        <div class="key" data-key="Semicolon">;</div>
+                        <div class="key" data-key="Quote">'</div>
+                        <div class="key key-110px" data-key="Enter" style="margin-right: 176px;">Enter</div>
+                        <div class="key" data-key="Numpad4">4</div>
+                        <div class="key" data-key="Numpad5">5</div>
+                        <div class="key" data-key="Numpad6">6</div>
+                    </div>
+                    <!-- 第五行 -->
+                    <div class="key-row">
+                        <div class="key key-110px" data-key="ShiftLeft">Shift</div>
+                        <div class="key" data-key="KeyZ">Z</div>
+                        <div class="key" data-key="KeyX">X</div>
+                        <div class="key" data-key="KeyC">C</div>
+                        <div class="key" data-key="KeyV">V</div>
+                        <div class="key" data-key="KeyB">B</div>
+                        <div class="key" data-key="KeyN">N</div>
+                        <div class="key" data-key="KeyM">M</div>
+                        <div class="key" data-key="Comma">,</div>
+                        <div class="key" data-key="Period">.</div>
+                        <div class="key" data-key="Slash">/</div>
+                        <div class="key key-134px" data-key="ShiftRight">Shift</div>
+                        <div class="key" data-key="ArrowUp" style="margin-right: 62px;">Up</div>
+                        <div class="key" data-key="Numpad1">1</div>
+                        <div class="key" data-key="Numpad2">2</div>
+                        <div class="key" data-key="Numpad3">3</div>
+                        <div class="key" style="margin: 0 0 -50px 0px; height: 98px;" data-key="NumpadEnter">Ent</div>
+                    </div>
+                    <!-- 第六行 -->
+                    <div class="key-row">
+                        <div class="key key-60px" data-key="ControlLeft">Ctrl</div>
+                        <div class="key key-60px" data-key="MetaLeft">Win</div>
+                        <div class="key key-60px" data-key="AltLeft">Alt</div>
+                        <div class="key key-306px" data-key="Space">Space</div>
+                        <div class="key key-60px" data-key="AltRight">Alt</div>
+                        <div class="key key-60px" data-key="MetaLeft">Win</div>
+                        <div class="key key-60px" data-key="ContextMenu">Menu</div>
+                        <div class="key key-62px" data-key="ControlRight" style="margin-right: 13px;">Ctrl</div>
+                        <div class="key" data-key="ArrowLeft">Left</div>
+                        <div class="key" data-key="ArrowDown">Down</div>
+                        <div class="key" data-key="ArrowRight" style="margin-right: 13px;">Right</div>
+                        <div class="key" style="width: 98px;" data-key="Numpad0">0</div>
+                        <div class="key" data-key="NumpadDecimal">.</div>
+                    </div>
+                    <!-- 第七行 -->
+                    <div class="status-legend">
+                        <div class="status-item">
+                            <span class="status-dot default"></span>
+                            <span>key initial state</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-dot active"></span>
+                            <span style="color:#ff6b35">Key Active</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-dot pressed"></span>
+                            <span style="color:#f8b18d">Key Activated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 按键统计 -->
+            <div class="statistics">
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Key press count</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">number of releases</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">104/104</div>
+                    <div class="stat-label">Number of Tested Keys</div>
+                </div>
+                <div class="stat-item">
+                    <div id="apmMax-text" class="stat-label">Real-time Key Presses per Minute</div>
+                    <div id="apm-chart">
+                        <canvas id="apm-canvas" width="200" height="100"></canvas>
+                    </div>
+                    <div id="apm-text" class="stat-label" style="font-size: 20px;">APM</div>
+                </div>
+            </div>
+
+            <!-- 按键记录 -->
+            <div class="record">
+                <div class="record-content">
+                    <table id="keyboard-record-table" class="record-table">
+                        <thead>
+                            <tr>
+                                <th>Key</th>
+                                <th>Status</th>
+                                <th>Interval(MS)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- 动态添加记录行 -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="record-actions">
+                    <button class="reset-btn" onclick="resetKeyboardTest()">Reset Data</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 鼠标测试界面 -->
+        <div id="mouse" class="test-section">
+
+            <!--按键统计-->
+            <div class="mouse-container">
+                <div class="mouse-stats">
+                        <div class="mouse-stat-item">
+                            <div class="mouse-stat-number">0</div>
+                            <div class="mouse-stat-label">Left Click Count</div>
+                        </div>
+                        <div class="mouse-stat-item">
+                            <div class="mouse-stat-number">0</div>
+                            <div class="mouse-stat-label">Right Click Count</div>
+                        </div>
+                        <div class="mouse-stat-item">
+                            <div class="mouse-stat-number">0</div>
+                            <div class="mouse-stat-label">Forward Button Click Count</div>
+                        </div>
+                        <div class="mouse-stat-item">
+                            <div class="mouse-stat-number">0</div>
+                            <div class="mouse-stat-label">Back Button Click Count</div>
+                        </div>
+                        <div class="mouse-stat-item">
+                            <div class="mouse-stat-number">0</div>
+                            <div class="mouse-stat-label">Scroll Wheel Click Count</div>
+                        </div>
+                        <div class="mouse-stat-item">
+                            <div class="mouse-stat-number">0</div>
+                            <div class="mouse-stat-label">Scroll Wheel Scroll Count</div>
+                        </div>
+                </div> 
+            </div>
+
+            <div class="mouse-visual">
+                <img src="./images/tools//MouseVisual.png" id="MouseVisual" alt="mouse" draggable="false">
+                <img src="./images/tools//leftbtn.png" id="Btn0" alt="" class="btnimg2" draggable="false">
+                <img src="./images/tools//whell.png" id="Btn1" alt="" class="btnimg1" draggable="false">
+                <img src="./images/tools//rightbtn.png" id="Btn2" alt="" class="btnimg2" draggable="false">
+                <img src="./images/tools//backwardbtn.png" id="Btn3" alt="" class="btnimg1" draggable="false">
+                <img src="./images/tools//forwardbtn.png" id="Btn4" alt="" class="btnimg1" draggable="false">
+            </div>
+
+            <!-- 按键记录 -->
+            <div class="record">
+                <div class="record-content">
+                    <table id="mouse-record-table" class="record-table">
+                        <thead>
+                            <tr>
+                                <th>Button</th>
+                                <th>Status</th>
+                                <th>Interval(MS)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- 动态添加记录行 -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="record-actions">
+                    <button class="reset-btn" onclick="resetMouseTest()">Reset Data</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="./devicetool-en.js"></script>
+</body>
+</html>
