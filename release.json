@@ -6,8 +6,9 @@
   "feedbackSubmissionEnabled": false,
   "wecomSyncEnabled": false,
   "buildTime": "1788349702484",
+  "hashBasis": "Git canonical blob bytes served by Pages",
   "entryAssets": {
-    "index.html": "dd40d9e04a8fae519fe6565fb6c18b9bd4079416b0e553c011d288807b5ea9d9",
+    "index.html": "34ff47cba62a82beae7cc425edc4da65cd2fb80a6fef5a0eb390e8de6e327865",
     "assets/index-BlSQwYpE.js": "2b2a2a456499deb98a9efdcc02473d2048e023e5c99e9e777b1d5faa5e092782",
     "assets/index-Jw3R2VFx.css": "525add90548878795692c64c39d3db957490cbb81db7cd14d55edd473016b47f"
   }
