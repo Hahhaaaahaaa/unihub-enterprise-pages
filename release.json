@@ -1,8 +1,8 @@
 {
-  "release": "unihub-20260902144442-af7169d",
-  "sourceCommit": "af7169d3a25ffaed383ce2cc6d04c1f37afab5c4",
-  "receiverRelease": "unihub-20260902144442-af7169d",
-  "builtAt": "2026-09-02T14:44:47.726Z",
+  "release": "unihub-20260902145058-b17f3b0",
+  "sourceCommit": "b17f3b095a3f6831bf057cde4873b8a2f6250416",
+  "receiverRelease": "unihub-20260902145058-b17f3b0",
+  "builtAt": "2026-09-02T14:51:04.398Z",
   "collectionEnabled": true,
   "sdk": "docs/sdk/FEEDBACK_WIDGET.md",
   "endpoint": "https://my.dareu.com/unihub/feedback/v1",
@@ -86,6 +86,6 @@
     "images/tools/rightbtn.png": "ba32159f2d824b117f96d11c03ac25946a12316ea1f08bde70a5cbdad087bb04",
     "images/tools/whell.png": "66f2cb8180ba9861e19e60cd9751646d5cde696e5896fde3660664d1d5e95ca6",
     "index.html": "4a9030f41febf90237d95c5c3ce48b0519719376092503ea34b9fb44f762e0d0",
-    "version.json": "8198c85d80057eafa173987d817a636fb1cdac8213974426f0e8948e850a8979"
+    "version.json": "9c3d14d785d28dbb1d6d6a3e4839fc28573a9f923452243fab53d1b4b439a6b8"
   }
 }
