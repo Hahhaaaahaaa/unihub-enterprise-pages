@@ -1,13 +1,13 @@
 {
-  "release": "unihub-20260902145058-b17f3b0",
-  "sourceCommit": "b17f3b095a3f6831bf057cde4873b8a2f6250416",
-  "receiverRelease": "unihub-20260902145058-b17f3b0",
-  "builtAt": "2026-09-02T14:51:04.398Z",
+  "release": "unihub-20260902152456-a7abb5e",
+  "sourceCommit": "a7abb5ef2f3dd36417fc264f55716ea3038697ce",
+  "receiverRelease": "unihub-20260902152456-a7abb5e",
+  "builtAt": "2026-09-02T15:25:02.127Z",
   "collectionEnabled": true,
   "sdk": "docs/sdk/FEEDBACK_WIDGET.md",
   "endpoint": "https://my.dareu.com/unihub/feedback/v1",
-  "js": "assets/index-oJaPLkJM.js",
-  "css": "assets/index-Jw3R2VFx.css",
+  "js": "assets/index-DppqFw6W.js",
+  "css": "assets/index-Cf0CeutW.css",
   "files": {
     "assets/0051-C-0-3pHS.js": "a5d2c01e555c7c4ec12c2e4941a9f177acdca4243b96d0d96d9da7ec02f682b9",
     "assets/0051-CBlVchxA.js": "adb7ab7a25e87fec89e3db4acbf9c434b35f8166421299c43cddb12720884c9c",
@@ -36,8 +36,8 @@
     "assets/HarmonyOS_Sans_SC_UniHub_Bold-DwGCtgqP.woff2": "157466d40c5b7ae2b20b446672265dce8d3263c61b0c5abdff3c2f62af488ed8",
     "assets/HarmonyOS_Sans_SC_UniHub_Regular-AXK-Xg82.woff2": "e20391113cf0d7cb952da9a37eb1f9142263ab5e257059fbdf3eecfa018ca283",
     "assets/image-with-fallback-DoEVBck4.png": "3defd30cc4a1baa23c95656e67cbabe828cd78629631942a5843c44b823a3ccc",
-    "assets/index-Jw3R2VFx.css": "525add90548878795692c64c39d3db957490cbb81db7cd14d55edd473016b47f",
-    "assets/index-oJaPLkJM.js": "8d6a88839b0e56412543ff9717aff27bed979905c04f553ba96c3085b6a3cab8",
+    "assets/index-Cf0CeutW.css": "87c16d5645ead407da688a58ec71c13ebacf2e9854fa4fafee934f2d12a8e8ed",
+    "assets/index-DppqFw6W.js": "7af733ac494bea53889574e73d5ddacb0be9acb386d10bf8ce97b483bcd09b56",
     "assets/led-region-backlit-checked-dfaiTus7.svg": "228ef6b7ffa330586798307ae7befe521e91089db73df34fd1d8960e9f6c034f",
     "assets/led-region-backlit-normal-C5sCfLYm.svg": "322b60b520a4805a522a57cd2a87b33185737b2ab45d051c2cc0eba38d4c1cb2",
     "assets/led-region-side-checked-DonWat6n.svg": "b8d2b0a83f4177eb209497d495be3a943a2d7e0aaae94252d689f07002dd6d42",
@@ -85,7 +85,7 @@
     "images/tools/MouseVisual.png": "b835f19b47564c724ec86701ad5f47c5fe534d14debdeaeeda8b7d4f5b56d96d",
     "images/tools/rightbtn.png": "ba32159f2d824b117f96d11c03ac25946a12316ea1f08bde70a5cbdad087bb04",
     "images/tools/whell.png": "66f2cb8180ba9861e19e60cd9751646d5cde696e5896fde3660664d1d5e95ca6",
-    "index.html": "4a9030f41febf90237d95c5c3ce48b0519719376092503ea34b9fb44f762e0d0",
-    "version.json": "9c3d14d785d28dbb1d6d6a3e4839fc28573a9f923452243fab53d1b4b439a6b8"
+    "index.html": "c40ea24a171ea71b6a9e394869d9f4c231b61a26e44dde2ad2bbf258fd66b804",
+    "version.json": "0f16bc4712d0fb80fcaa55f9b0d54e5ad726979f101d68aa007789934713dcba"
   }
 }
