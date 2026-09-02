@@ -1,0 +1,14 @@
+{
+  "releaseId": "unihub-feedback-20260902-82c77b8",
+  "sourceCommit": "82c77b8474036f62c94245de1580cbca08cfed85",
+  "previousPagesCommit": "67a581218f2a26d3bbd32b81e212eb205a2bc07e",
+  "basePath": "/unihub-enterprise-pages/",
+  "feedbackSubmissionEnabled": false,
+  "wecomSyncEnabled": false,
+  "buildTime": "1788349702484",
+  "entryAssets": {
+    "index.html": "dd40d9e04a8fae519fe6565fb6c18b9bd4079416b0e553c011d288807b5ea9d9",
+    "assets/index-BlSQwYpE.js": "2b2a2a456499deb98a9efdcc02473d2048e023e5c99e9e777b1d5faa5e092782",
+    "assets/index-Jw3R2VFx.css": "525add90548878795692c64c39d3db957490cbb81db7cd14d55edd473016b47f"
+  }
+}
