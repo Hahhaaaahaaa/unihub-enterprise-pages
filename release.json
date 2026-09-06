@@ -1,12 +1,12 @@
 {
-  "release": "unihub-20260906052710-3bdc69e",
-  "sourceCommit": "3bdc69e7dfac04c3a7e50059141db21a61fdd3db",
-  "receiverRelease": "unihub-20260906052710-3bdc69e",
-  "builtAt": "2026-09-06T05:27:16.847Z",
+  "release": "unihub-20260906055029-839f5de",
+  "sourceCommit": "839f5deb1cef166e04bb9ba59a846f1b8f44f3bf",
+  "receiverRelease": "unihub-20260906055029-839f5de",
+  "builtAt": "2026-09-06T05:50:36.551Z",
   "collectionEnabled": true,
   "sdk": "docs/sdk/FEEDBACK_WIDGET.md",
   "endpoint": "https://my.dareu.com/unihub/feedback/v1",
-  "js": "assets/index-C2lhgNVa.js",
+  "js": "assets/index-C8l3LpMg.js",
   "css": "assets/index-CHrtTAGu.css",
   "files": {
     "assets/0051-Bopj7GXN.js": "adb7ab7a25e87fec89e3db4acbf9c434b35f8166421299c43cddb12720884c9c",
@@ -42,7 +42,7 @@
     "assets/HarmonyOS_Sans_SC_UniHub_Bold-DwGCtgqP.woff2": "157466d40c5b7ae2b20b446672265dce8d3263c61b0c5abdff3c2f62af488ed8",
     "assets/HarmonyOS_Sans_SC_UniHub_Regular-AXK-Xg82.woff2": "e20391113cf0d7cb952da9a37eb1f9142263ab5e257059fbdf3eecfa018ca283",
     "assets/image-with-fallback-DoEVBck4.png": "3defd30cc4a1baa23c95656e67cbabe828cd78629631942a5843c44b823a3ccc",
-    "assets/index-C2lhgNVa.js": "6f36cb9f5d8cbf44707bc06f679388c49013b853054be821faaf88957cd0c962",
+    "assets/index-C8l3LpMg.js": "b7db4a9667f05857e98455073e838724e3ff31f7d2c518b7db76841972c18132",
     "assets/index-CHrtTAGu.css": "2c8038b7601e94ac3282a84e1933940d5b70fea14e55184c520514cdcb54339a",
     "assets/led-region-backlit-checked-dfaiTus7.svg": "228ef6b7ffa330586798307ae7befe521e91089db73df34fd1d8960e9f6c034f",
     "assets/led-region-backlit-normal-C5sCfLYm.svg": "322b60b520a4805a522a57cd2a87b33185737b2ab45d051c2cc0eba38d4c1cb2",
@@ -96,12 +96,12 @@
     "assets/wallpaper-09-BsF3NeS0.mp4": "3cd99a21ea736482be622c586cf8a168344ba6ab0ebc852c942d9c4a0c7d4f93",
     "assets/wallpaper-09-DxxKJKLE.webp": "b5cbc8f2d601ce196137d36f8b6d0055f3e20c74dabd39f36b54385bbe1858fc",
     "assets/wallpaper-10-Crr2jm06.mp4": "294d656ae32f2deabddd2c27d953a85552597d43f918811ebc8a233eca6a4505",
-    "assets/Workspace-B5M6ZuWO.js": "47ef462ced966ff57b305e214b2ff2f5658a807f66a3ae4fc6784374cba771f5",
-    "assets/Workspace-B8y27Rss.js": "3f5b055fe45d8b37dd912879c2f1e431a537c773064ff43f53873fcdd5d31104",
     "assets/Workspace-BOlwWBlm.css": "786a83d9527f170516f79b5ec68b2fd2cde576eef2b26ce0614eae00727cbf7e",
-    "assets/Workspace-BvD01RGx.css": "0701461ce529f7e91a804b68ed1bff741fab662ce3bc15345ecd92a507ddffc8",
+    "assets/Workspace-C9d95_gq.js": "a90f77ad0229a4c1a62273eec5a9e1ff658433d2392d090b82528901eb21a139",
+    "assets/Workspace-CdBCr03m.css": "906d37effbd46c7312d113640cc8752ea4078091299efaa506f94c594ba46454",
     "assets/Workspace-D0Gk1Jyn.css": "4cc3f2c47dbf5a526681cb970e3af78f2cec453d694e7eabbdc3a77d7a0a3c21",
-    "assets/Workspace-ooCPh0LR.js": "dbb3e3e27ea06977b3bdf53d87cf5a002c3be00bb9fd1afe524f58642b8ae8f5",
+    "assets/Workspace-DRsuFEDk.js": "ee0a883f89354d8bda5c0de4bd309d055e501373df8d50899b07493545d1d9c3",
+    "assets/Workspace-gNGOC_gS.js": "671384532ca8da285e8d226850f5a94cf2c58fed48664b6ecfa0f6be788ab293",
     "CHANGELOG.md": "1b3a4e582235d40180885b79f81b0ce18e3cd004dace7ff8b49e55740c30d2a5",
     "devicetool-en.html": "2086e72f77bb0f8804ab5073d4a265423e0d9820424f4d21067d8a163289f741",
     "devicetool-en.js": "5f7e6ac0bdf3e36834cf1d8ca37795d7f861ea29fea20d96f31c271ced33d980",
@@ -121,7 +121,7 @@
     "images/tools/MouseVisual.png": "b835f19b47564c724ec86701ad5f47c5fe534d14debdeaeeda8b7d4f5b56d96d",
     "images/tools/rightbtn.png": "ba32159f2d824b117f96d11c03ac25946a12316ea1f08bde70a5cbdad087bb04",
     "images/tools/whell.png": "66f2cb8180ba9861e19e60cd9751646d5cde696e5896fde3660664d1d5e95ca6",
-    "index.html": "c78032bfb877f5fb1f6e157c5deb25369c93c86f1f28fcc1c8910085c519a1d2",
-    "version.json": "dab7a04f01656801d3467ed11b4ba9e59c6e8b08e265f38ba6c2463eac1e5a5d"
+    "index.html": "8ee88f345dc8f4000204e5def221645aaecc39bdb3f134cbbaa44fe00c52b1b7",
+    "version.json": "7c6bf17c416aff5a9949c2a952ccbb5135a5d2ed7eff81ad163a24c799463349"
   }
 }
