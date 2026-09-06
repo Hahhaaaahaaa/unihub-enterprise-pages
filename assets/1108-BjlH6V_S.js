@@ -1,0 +1,1 @@
+var e={PID:`1108`,Model:`TM230GDongle`,ProductName:`2.4G Receiver`,Type:2,FwType:2,LatestFwVer:`010200`,CanUpdateOnline:!1,UpdateToolZip:``,ProductLink:``},t={Device:e};export{e as Device,t as default};
