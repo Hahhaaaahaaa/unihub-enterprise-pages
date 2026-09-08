@@ -1,8 +1,8 @@
 {
-  "release": "unihub-20260908164526-bc0daca",
-  "sourceCommit": "bc0dacaa36e15632b86ff801a83fb38dc8e9c72d",
-  "receiverRelease": "unihub-20260908164526-bc0daca",
-  "builtAt": "2026-09-08T16:45:43.407Z",
+  "release": "unihub-20260908170503-13a2fb3",
+  "sourceCommit": "13a2fb3f2da6be84e51337dd01a8d0c43c4bd8c5",
+  "receiverRelease": "unihub-20260908170503-13a2fb3",
+  "builtAt": "2026-09-08T17:05:21.223Z",
   "collectionEnabled": true,
   "sdk": "docs/sdk/FEEDBACK_WIDGET.md",
   "sdkDocuments": [
@@ -13,7 +13,7 @@
     "docs/sdk/COMPONENT_INDEX.md"
   ],
   "endpoint": "https://my.dareu.com/unihub/feedback/v1",
-  "js": "assets/index-EBOz9XwM.js",
+  "js": "assets/index-8sgARCxh.js",
   "css": "assets/index-C38Sp1Ci.css",
   "files": {
     "assets/0051-DO3-MMgI.js": "adb7ab7a25e87fec89e3db4acbf9c434b35f8166421299c43cddb12720884c9c",
@@ -98,10 +98,10 @@
     "assets/HarmonyOS_Sans_SC_UniHub_Bold-DwGCtgqP.woff2": "157466d40c5b7ae2b20b446672265dce8d3263c61b0c5abdff3c2f62af488ed8",
     "assets/HarmonyOS_Sans_SC_UniHub_Regular-AXK-Xg82.woff2": "e20391113cf0d7cb952da9a37eb1f9142263ab5e257059fbdf3eecfa018ca283",
     "assets/image-with-fallback-DoEVBck4.png": "3defd30cc4a1baa23c95656e67cbabe828cd78629631942a5843c44b823a3ccc",
+    "assets/index-8sgARCxh.js": "a783f81d9f05c47167cfea60f1af4e4e5e1b4af7416751e76af173a0632b8b33",
+    "assets/index-8sgARCxh.js.br": "e7823193c4604b586b583a8cb6770e9a8d93478505bf624b0d7f49c46704eb4f",
     "assets/index-C38Sp1Ci.css": "82cf68f0073a07ac493d29963719a8acfa310f263ababcbd6312ed989e08ed32",
     "assets/index-C38Sp1Ci.css.br": "ce9d75bcc18a8b1fd9dd48baf23e8eb6069f7a330f293e9d60f468a622b268cb",
-    "assets/index-EBOz9XwM.js": "aae184dd226fc4f988b51d93a8a27942eaded8918160d8005a4789dcbc84ea82",
-    "assets/index-EBOz9XwM.js.br": "eba8a66468040c4bcbafbd8104da035713f0ee1128d9f316d93e5e40e21a775a",
     "assets/key-definitions-CiYp46F3.js": "51890c35290e7db69c8c748b0a3a66bca2f6ee4027c3cec7c431cc20fd7658f3",
     "assets/key-definitions-CiYp46F3.js.br": "c6b8b58625b41375b6a8a5c6ba14d38b2fe852a8c57a7f337febf4bcd13fd66f",
     "assets/key-structure-centered-BNnBhx15.json": "2e0b76754725f3d7f231e0e2101b681d856e78b062e90d6da33d568ac385c326",
@@ -231,8 +231,8 @@
     "assets/wallpaper-09-BsF3NeS0.mp4": "3cd99a21ea736482be622c586cf8a168344ba6ab0ebc852c942d9c4a0c7d4f93",
     "assets/wallpaper-09-DxxKJKLE.webp": "b5cbc8f2d601ce196137d36f8b6d0055f3e20c74dabd39f36b54385bbe1858fc",
     "assets/wallpaper-10-Crr2jm06.mp4": "294d656ae32f2deabddd2c27d953a85552597d43f918811ebc8a233eca6a4505",
-    "assets/Workspace-CbPj-Q8t.js": "4338201b65fac8553d8df26ed7f22c5e14b1b7924b25c0b1638e179b2cc43672",
-    "assets/Workspace-CbPj-Q8t.js.br": "9bab62da40a62460ec96452e5f2e64cf40bd4803986c4c8b464360552dbcaaae",
+    "assets/Workspace-BblYGz9E.js": "a19c85a8730534fdfe73baa182323934d06a3d92f32fcd096ae608d828f4fbc3",
+    "assets/Workspace-BblYGz9E.js.br": "af72c87636db96f43bc1f404148a53a56d3615e9ea49124e893bab1b0d1d4db8",
     "assets/Workspace-CcPB3ei-.css": "b668da57f0c7848d62716128d7407dfe7ac634b700e21d5c507bce63db75e775",
     "assets/Workspace-CcPB3ei-.css.br": "449dd2e86b3be298cb43f2fb5b0cc7501f4b492079d6a3dfb6c08b4c0b2af329",
     "assets/Workspace-CuvrARyD.css": "5db86f2bfb759b65565de2d5279d13804a6acfa3515ed7935a6dfeca4db000ec",
@@ -274,14 +274,14 @@
     "images/tools/MouseVisual.png": "b835f19b47564c724ec86701ad5f47c5fe534d14debdeaeeda8b7d4f5b56d96d",
     "images/tools/rightbtn.png": "ba32159f2d824b117f96d11c03ac25946a12316ea1f08bde70a5cbdad087bb04",
     "images/tools/whell.png": "66f2cb8180ba9861e19e60cd9751646d5cde696e5896fde3660664d1d5e95ca6",
-    "index.html": "483c2ffac2359f5b3d8341537494f69b8a7adedb62c62950e8759e711894e0ea",
-    "index.html.br": "d053dfe8a8ef4dd789482edb3c8c2a1ab4564a253d191dd8bc74c7cd4d777d2a",
+    "index.html": "2edb5dbd85423d4e4cd120fda0ac011f09ec815a17d6ca629511d06c4e05d057",
+    "index.html.br": "22c23fe43f94400fc2b6b3b29c94ec02edcd2aa802e06fd8fdeca9cb302d588b",
     "models/flex87/flex87.glb": "9ddbe460e5393fa89141fcc5994d82b4f939bc6a59ce7f413b73d671c85054ab",
     "models/flex87/flex87.glb.br": "4580aea8a0ab76a400ec0a0c356fa3350596fb5071a3da8bdeb32d8b23fd1a40",
     "models/flex87/legends/pdf-glyphs.json": "9bc0055179b7521bee91e25038558b5b343e52d51e399b0102580f688dce03fe",
     "models/flex87/legends/pdf-glyphs.json.br": "4757893b481772be6ae093a09b12cb92a84c201abdabbe4ae4fa1b0bf343de7c",
     "models/flex87/legends/pdf-glyphs.png": "5b6dd6c624c561ad72731690bb3a096e9b6cc75e935186ef8df832484e57fc8c",
-    "version.json": "46bc968d4dc38c5fb687f90b0fe82d1aba75b065b1f8581c3f5d2823b6b04183",
-    "version.json.br": "182d37f3a9c9eee79cbdfd39008548e44d21cce5937d2dfe871f0753d1e836b8"
+    "version.json": "bedc6c0ca2b70fcd83bdd96fca88c3b0ec969ec4f916c7bcbe2ff5891dc90be4",
+    "version.json.br": "7e6799674d5a6e5cc0cdb962c75483b9031a3d5b621fe83d73d3f088a0c21bee"
   }
 }
