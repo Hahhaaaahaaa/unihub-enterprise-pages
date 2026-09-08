@@ -1,8 +1,8 @@
 {
-  "release": "unihub-20260908031528-2259907",
-  "sourceCommit": "2259907b950ac93af7dfc88986e22497c4e280a7",
-  "receiverRelease": "unihub-20260908031528-2259907",
-  "builtAt": "2026-09-08T03:15:46.933Z",
+  "release": "unihub-20260908032332-b8fda1e",
+  "sourceCommit": "b8fda1e23bc1e106dd33d133c188bca289e0cf9c",
+  "receiverRelease": "unihub-20260908032332-b8fda1e",
+  "builtAt": "2026-09-08T03:23:51.966Z",
   "collectionEnabled": true,
   "sdk": "docs/sdk/FEEDBACK_WIDGET.md",
   "sdkDocuments": [
@@ -236,7 +236,7 @@
     "models/flex87/legends/pdf-glyphs.json": "9bc0055179b7521bee91e25038558b5b343e52d51e399b0102580f688dce03fe",
     "models/flex87/legends/pdf-glyphs.json.br": "4757893b481772be6ae093a09b12cb92a84c201abdabbe4ae4fa1b0bf343de7c",
     "models/flex87/legends/pdf-glyphs.png": "5b6dd6c624c561ad72731690bb3a096e9b6cc75e935186ef8df832484e57fc8c",
-    "version.json": "a7daefd1f1237bb067ea3c0458846b0c7a8e88682b103ba9db4338131f69bfc3",
-    "version.json.br": "864acfb1dabb70d3dd9197b501451096ff46b3661ff64794a9d79bddb1bb7ec8"
+    "version.json": "506e1961eb543f96ee962bf618c1d5b74b839cbab3dd8d023fc0541e5f0926fc",
+    "version.json.br": "dfc94564b0f3c5893b5056cb3fded8a7c282b4005ab4e875d7ac847fc9d85b0b"
   }
 }
