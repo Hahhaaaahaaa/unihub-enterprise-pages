@@ -1,0 +1,1 @@
+import{a as e,c as t,d as n,f as r,g as i,i as a,m as o,n as s,p as c,s as l,t as u,u as d}from"./keyboard-atXM-atd.js";var f=[...new Map([u,c,e,o,i,l,t,d,a,r,n].flat().map(e=>[e.keycode,{...e,label:s(e,`zh-CN`)||e.legend,value:e.keycode}])).values()];export{f as t};
