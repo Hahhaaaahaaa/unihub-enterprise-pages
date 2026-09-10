@@ -1,0 +1,1 @@
+var e={device:{type:2,name:`TK53P Dongle`,model:`TK53P`},firmware:{type:1,latestVersion:`020001`,canUpdateOnline:!1,updateToolZip:``}},t={info:e};export{t as default,e as info};
