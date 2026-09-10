@@ -1,0 +1,1 @@
+var e={PID:`1131`,Model:`TM270FDongle`,ProductName:`Wireless Dongle`,Type:2,FwType:1,LatestFwVer:``,CanUpdateOnline:!1,UpdateToolZip:``,ProductLink:``},t={Device:e};export{e as Device,t as default};
