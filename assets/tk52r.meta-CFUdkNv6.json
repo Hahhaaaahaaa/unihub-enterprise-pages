@@ -1,0 +1,6991 @@
+{
+  "product": "TK52R / ULTRA 68",
+  "sourceFile": "tk52r_screen_asmcizhou.stp",
+  "sourceSha256": "71f0be3ad2db50c76c967c837a9d8caacbeb7d41f397fdff06acb376a353756c",
+  "units": "mm",
+  "sourceParts": 285,
+  "sourceTriangles": 22468394,
+  "keys": [
+    {
+      "id": "16",
+      "row": 0,
+      "column": 0,
+      "label": "Esc",
+      "physicalCode": "Escape",
+      "boundsMm": [
+        -151.99999806505411,
+        54.895000006757726,
+        0.09998999900000001,
+        -133.74999806505411,
+        73.14500000682635,
+        10.033619998999999
+      ],
+      "lightingIndex": 0,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "17",
+      "row": 0,
+      "column": 1,
+      "label": "F1",
+      "physicalCode": "F1",
+      "boundsMm": [
+        -123.8999980650542,
+        54.895000006703896,
+        0.09998999900000001,
+        -105.6499980650542,
+        73.14500000677252,
+        10.033619998999999
+      ],
+      "lightingIndex": 1,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "18",
+      "row": 0,
+      "column": 2,
+      "label": "F2",
+      "physicalCode": "F2",
+      "boundsMm": [
+        -104.84999806505402,
+        54.89500000676742,
+        0.09998999900000001,
+        -86.59999806505402,
+        73.14500000683604,
+        10.033619998999999
+      ],
+      "lightingIndex": 2,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "19",
+      "row": 0,
+      "column": 3,
+      "label": "F3",
+      "physicalCode": "F3",
+      "boundsMm": [
+        -85.79999806505407,
+        54.895000006730896,
+        0.09998999900000001,
+        -67.54999806505407,
+        73.14500000679952,
+        10.033619998999999
+      ],
+      "lightingIndex": 3,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "20",
+      "row": 0,
+      "column": 4,
+      "label": "F4",
+      "physicalCode": "F4",
+      "boundsMm": [
+        -66.74999806505411,
+        54.8950000066944,
+        0.09998999900000001,
+        -48.499998065054115,
+        73.14500000676303,
+        10.033619998999999
+      ],
+      "lightingIndex": 4,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "21",
+      "row": 0,
+      "column": 5,
+      "label": "F5",
+      "physicalCode": "F5",
+      "boundsMm": [
+        -38.649998065054206,
+        54.89500000674056,
+        0.09998999900000001,
+        -20.399998065054206,
+        73.14500000680918,
+        10.033619998999999
+      ],
+      "lightingIndex": 5,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "22",
+      "row": 0,
+      "column": 6,
+      "label": "F6",
+      "physicalCode": "F6",
+      "boundsMm": [
+        -19.599998065054024,
+        54.895000006704066,
+        0.09998999900000001,
+        -1.3499980650540238,
+        73.14500000677269,
+        10.033619998999999
+      ],
+      "lightingIndex": 6,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "23",
+      "row": 0,
+      "column": 7,
+      "label": "F7",
+      "physicalCode": "F7",
+      "boundsMm": [
+        -0.5499980650540692,
+        54.89500000676756,
+        0.09998999900000001,
+        17.70000193494593,
+        73.14500000683618,
+        10.033619998999999
+      ],
+      "lightingIndex": 7,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "24",
+      "row": 0,
+      "column": 8,
+      "label": "F8",
+      "physicalCode": "F8",
+      "boundsMm": [
+        18.500001934946113,
+        54.89500000673107,
+        0.09998999900000001,
+        36.75000193494611,
+        73.14500000679969,
+        10.033619998999999
+      ],
+      "lightingIndex": 8,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "25",
+      "row": 0,
+      "column": 9,
+      "label": "F9",
+      "physicalCode": "F9",
+      "boundsMm": [
+        46.600001934946135,
+        54.895000006777224,
+        0.09998999900000001,
+        64.85000193494614,
+        73.14500000684585,
+        10.033619998999999
+      ],
+      "lightingIndex": 9,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "26",
+      "row": 0,
+      "column": 10,
+      "label": "F10",
+      "physicalCode": "F10",
+      "boundsMm": [
+        65.65000193494609,
+        54.89500000674073,
+        0.09998999900000001,
+        83.90000193494609,
+        73.14500000680935,
+        10.033619998999999
+      ],
+      "lightingIndex": 10,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "27",
+      "row": 0,
+      "column": 11,
+      "label": "F11",
+      "physicalCode": "F11",
+      "boundsMm": [
+        84.70000193494616,
+        54.89500000670421,
+        0.09998999900000001,
+        102.95000193494616,
+        73.14500000677283,
+        10.033619998999999
+      ],
+      "lightingIndex": 11,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "28",
+      "row": 0,
+      "column": 12,
+      "label": "F12",
+      "physicalCode": "F12",
+      "boundsMm": [
+        103.75000193494611,
+        54.8950000067677,
+        0.09998999900000001,
+        122.00000193494611,
+        73.14500000683633,
+        10.033619998999999
+      ],
+      "lightingIndex": 12,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "29",
+      "row": 0,
+      "column": 13,
+      "label": "Home",
+      "physicalCode": "Home",
+      "boundsMm": [
+        133.7500019349461,
+        54.895000006710234,
+        0.09998999900000001,
+        152.0000019349461,
+        73.14500000677886,
+        10.033619998999999
+      ],
+      "lightingIndex": 13,
+      "firmwareKeyId": null,
+      "module": "f-row"
+    },
+    {
+      "id": "15",
+      "row": 1,
+      "column": 0,
+      "label": "`",
+      "physicalCode": "Backquote",
+      "boundsMm": [
+        -151.99999806510368,
+        28.995000006957923,
+        0.09998999900000001,
+        -133.74999806510368,
+        47.24500000702655,
+        10.033619998999999
+      ],
+      "lightingIndex": 14,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "14",
+      "row": 1,
+      "column": 1,
+      "label": "1",
+      "physicalCode": "Digit1",
+      "boundsMm": [
+        -132.94999806510373,
+        28.99500000692143,
+        0.09998999900000001,
+        -114.69999806510373,
+        47.245000006990054,
+        10.033619998999999
+      ],
+      "lightingIndex": 15,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "13",
+      "row": 1,
+      "column": 2,
+      "label": "2",
+      "physicalCode": "Digit2",
+      "boundsMm": [
+        -113.89999806510377,
+        28.995000006884922,
+        0.09998999900000001,
+        -95.64999806510377,
+        47.245000006953546,
+        10.033619998999999
+      ],
+      "lightingIndex": 16,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "12",
+      "row": 1,
+      "column": 3,
+      "label": "3",
+      "physicalCode": "Digit3",
+      "boundsMm": [
+        -94.84999806510359,
+        28.99500000684843,
+        0.09998999900000001,
+        -76.59999806510359,
+        47.24500000691705,
+        10.033619998999999
+      ],
+      "lightingIndex": 17,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "11",
+      "row": 1,
+      "column": 4,
+      "label": "4",
+      "physicalCode": "Digit4",
+      "boundsMm": [
+        -75.79999806510364,
+        28.995000006811935,
+        0.09998999900000001,
+        -57.54999806510364,
+        47.24500000688056,
+        10.033619998999999
+      ],
+      "lightingIndex": 18,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "10",
+      "row": 1,
+      "column": 5,
+      "label": "5",
+      "physicalCode": "Digit5",
+      "boundsMm": [
+        -56.74999806510368,
+        28.995000006775427,
+        0.09998999900000001,
+        -38.49999806510368,
+        47.24500000684405,
+        10.033619998999999
+      ],
+      "lightingIndex": 19,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "9",
+      "row": 1,
+      "column": 6,
+      "label": "6",
+      "physicalCode": "Digit6",
+      "boundsMm": [
+        -37.69999806510373,
+        28.995000006738934,
+        0.09998999900000001,
+        -19.449998065103728,
+        47.24500000680756,
+        10.033619998999999
+      ],
+      "lightingIndex": 20,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "8",
+      "row": 1,
+      "column": 7,
+      "label": "7",
+      "physicalCode": "Digit7",
+      "boundsMm": [
+        -18.649998065103773,
+        28.995000006702426,
+        0.09998999900000001,
+        -0.3999980651037731,
+        47.24500000677105,
+        10.033619998999999
+      ],
+      "lightingIndex": 21,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "7",
+      "row": 1,
+      "column": 8,
+      "label": "8",
+      "physicalCode": "Digit8",
+      "boundsMm": [
+        0.4000019348964088,
+        28.995000006665933,
+        0.09998999900000001,
+        18.65000193489641,
+        47.24500000673456,
+        10.033619998999999
+      ],
+      "lightingIndex": 22,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "6",
+      "row": 1,
+      "column": 9,
+      "label": "9",
+      "physicalCode": "Digit9",
+      "boundsMm": [
+        19.450001934896477,
+        28.995000006629425,
+        0.09998999900000001,
+        37.70000193489648,
+        47.24500000669805,
+        10.033619998999999
+      ],
+      "lightingIndex": 23,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "5",
+      "row": 1,
+      "column": 10,
+      "label": "0",
+      "physicalCode": "Digit0",
+      "boundsMm": [
+        38.50000193509641,
+        28.99500000659293,
+        0.09998999900000001,
+        56.75000193509641,
+        47.245000006661556,
+        10.033619998999999
+      ],
+      "lightingIndex": 24,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "4",
+      "row": 1,
+      "column": 11,
+      "label": "-",
+      "physicalCode": "Minus",
+      "boundsMm": [
+        57.550001935096475,
+        28.995000006556438,
+        0.09998999900000001,
+        75.80000193509647,
+        47.24500000662506,
+        10.033619998999999
+      ],
+      "lightingIndex": 25,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "3",
+      "row": 1,
+      "column": 12,
+      "label": "=",
+      "physicalCode": "Equal",
+      "boundsMm": [
+        76.60000193509643,
+        28.99500000651993,
+        0.09998999900000001,
+        94.85000193509643,
+        47.245000006588555,
+        10.033619998999999
+      ],
+      "lightingIndex": 26,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "74",
+      "row": 1,
+      "column": 13,
+      "label": "Backspace",
+      "physicalCode": "Backspace",
+      "boundsMm": [
+        95.69554981812553,
+        28.995000005336834,
+        0.099999999,
+        132.9044598181256,
+        47.24500000540674,
+        9.966379998999999
+      ],
+      "lightingIndex": 27,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "2",
+      "row": 1,
+      "column": 14,
+      "label": "Ins",
+      "physicalCode": "Insert",
+      "boundsMm": [
+        133.7500019350964,
+        28.99500000641025,
+        0.09998999900000001,
+        152.0000019350964,
+        47.245000006478875,
+        10.033619998999999
+      ],
+      "lightingIndex": 28,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "75",
+      "row": 2,
+      "column": 0,
+      "label": "Tab",
+      "physicalCode": "Tab",
+      "boundsMm": [
+        -152.0413140426549,
+        9.855875143090543,
+        0.09999999907400003,
+        -124.18249641432453,
+        28.195027351395197,
+        8.214399999074
+      ],
+      "lightingIndex": 29,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "42",
+      "row": 2,
+      "column": 1,
+      "label": "Q",
+      "physicalCode": "KeyQ",
+      "boundsMm": [
+        -123.42501076294457,
+        9.944969100626679,
+        0.09994999900000001,
+        -105.17499076294462,
+        28.195019100626553,
+        8.174229999
+      ],
+      "lightingIndex": 30,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "41",
+      "row": 2,
+      "column": 2,
+      "label": "W",
+      "physicalCode": "KeyW",
+      "boundsMm": [
+        -104.37501076294461,
+        9.944969100590185,
+        0.09994999900000001,
+        -86.12499076294466,
+        28.19501910059006,
+        8.174229999
+      ],
+      "lightingIndex": 31,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "40",
+      "row": 2,
+      "column": 3,
+      "label": "E",
+      "physicalCode": "KeyE",
+      "boundsMm": [
+        -85.32501076294443,
+        9.944969100553664,
+        0.09994999900000001,
+        -67.07499076294448,
+        28.195019100553537,
+        8.174229999
+      ],
+      "lightingIndex": 32,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "39",
+      "row": 2,
+      "column": 4,
+      "label": "R",
+      "physicalCode": "KeyR",
+      "boundsMm": [
+        -66.27501076294448,
+        9.94496910051717,
+        0.09994999900000001,
+        -48.024990762944526,
+        28.195019100517044,
+        8.174229999
+      ],
+      "lightingIndex": 33,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "38",
+      "row": 2,
+      "column": 5,
+      "label": "T",
+      "physicalCode": "KeyT",
+      "boundsMm": [
+        -47.22501076294452,
+        9.944969100480677,
+        0.09994999900000001,
+        -28.97499076294457,
+        28.19501910048055,
+        8.174229999
+      ],
+      "lightingIndex": 34,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "37",
+      "row": 2,
+      "column": 6,
+      "label": "Y",
+      "physicalCode": "KeyY",
+      "boundsMm": [
+        -28.175010762944567,
+        9.944969100444183,
+        0.09994999900000001,
+        -9.924990762944617,
+        28.195019100444057,
+        8.174229999
+      ],
+      "lightingIndex": 35,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "36",
+      "row": 2,
+      "column": 7,
+      "label": "U",
+      "physicalCode": "KeyU",
+      "boundsMm": [
+        -9.125010762944612,
+        9.944969100407661,
+        0.09994999900000001,
+        9.125009237055338,
+        28.195019100407535,
+        8.174229999
+      ],
+      "lightingIndex": 36,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "35",
+      "row": 2,
+      "column": 8,
+      "label": "I",
+      "physicalCode": "KeyI",
+      "boundsMm": [
+        9.92498923705557,
+        9.944969100371168,
+        0.09994999900000001,
+        28.17500923705552,
+        28.19501910037104,
+        8.174229999
+      ],
+      "lightingIndex": 37,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "34",
+      "row": 2,
+      "column": 9,
+      "label": "O",
+      "physicalCode": "KeyO",
+      "boundsMm": [
+        28.974989237055524,
+        9.944969100334674,
+        0.09994999900000001,
+        47.225009237055474,
+        28.195019100334548,
+        8.174229999
+      ],
+      "lightingIndex": 38,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "33",
+      "row": 2,
+      "column": 10,
+      "label": "P",
+      "physicalCode": "KeyP",
+      "boundsMm": [
+        48.02498923705548,
+        9.94496910029818,
+        0.09994999900000001,
+        66.27500923705543,
+        28.195019100298055,
+        8.174229999
+      ],
+      "lightingIndex": 39,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "32",
+      "row": 2,
+      "column": 11,
+      "label": "[",
+      "physicalCode": "BracketLeft",
+      "boundsMm": [
+        67.07498923705543,
+        9.944969100261687,
+        0.09994999900000001,
+        85.32500923705538,
+        28.19501910026156,
+        8.174229999
+      ],
+      "lightingIndex": 40,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "31",
+      "row": 2,
+      "column": 12,
+      "label": "]",
+      "physicalCode": "BracketRight",
+      "boundsMm": [
+        86.12498923705539,
+        9.944969100225165,
+        0.09994999900000001,
+        104.37500923705534,
+        28.19501910022504,
+        8.174229999
+      ],
+      "lightingIndex": 41,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "73",
+      "row": 2,
+      "column": 13,
+      "label": "\\",
+      "physicalCode": "Backslash",
+      "boundsMm": [
+        105.13368006580129,
+        9.855872121551045,
+        0.09999999907400003,
+        132.99250362316593,
+        28.19503905949442,
+        8.214399999074
+      ],
+      "lightingIndex": 42,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "30",
+      "row": 2,
+      "column": 14,
+      "label": "Del",
+      "physicalCode": "Delete",
+      "boundsMm": [
+        133.7499892370554,
+        9.944969100133932,
+        0.09994999900000001,
+        152.00000923705534,
+        28.195019100133806,
+        8.174229999
+      ],
+      "lightingIndex": 43,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "78",
+      "row": 3,
+      "column": 0,
+      "label": "Caps Lock",
+      "physicalCode": "CapsLock",
+      "boundsMm": [
+        -151.98125951830855,
+        -9.10500104575118,
+        0.099729999,
+        -119.4812395183086,
+        9.145008954373083,
+        7.480039999000001
+      ],
+      "lightingIndex": 44,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "72",
+      "row": 3,
+      "column": 1,
+      "label": "A",
+      "physicalCode": "KeyA",
+      "boundsMm": [
+        -118.6625214809809,
+        -9.105049042282474,
+        0.09987999922339998,
+        -100.41248148098089,
+        9.145020957717406,
+        7.446579999223401
+      ],
+      "lightingIndex": 45,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "71",
+      "row": 3,
+      "column": 2,
+      "label": "S",
+      "physicalCode": "KeyS",
+      "boundsMm": [
+        -99.61252148098094,
+        -9.105049042318967,
+        0.09987999922339998,
+        -81.36248148098093,
+        9.145020957680913,
+        7.446579999223401
+      ],
+      "lightingIndex": 46,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "70",
+      "row": 3,
+      "column": 3,
+      "label": "D",
+      "physicalCode": "KeyD",
+      "boundsMm": [
+        -80.56252148098099,
+        -9.10504904235546,
+        0.09987999922339998,
+        -62.31248148098098,
+        9.14502095764442,
+        7.446579999223401
+      ],
+      "lightingIndex": 47,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "69",
+      "row": 3,
+      "column": 4,
+      "label": "F",
+      "physicalCode": "KeyF",
+      "boundsMm": [
+        -61.51252148098092,
+        -9.105049042391954,
+        0.09987999922339998,
+        -43.26248148098091,
+        9.145020957607926,
+        7.446579999223401
+      ],
+      "lightingIndex": 48,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "68",
+      "row": 3,
+      "column": 5,
+      "label": "G",
+      "physicalCode": "KeyG",
+      "boundsMm": [
+        -42.46252148098097,
+        -9.105049042428504,
+        0.09987999922339998,
+        -24.212481480980955,
+        9.145020957571376,
+        7.446579999223401
+      ],
+      "lightingIndex": 49,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "67",
+      "row": 3,
+      "column": 6,
+      "label": "H",
+      "physicalCode": "KeyH",
+      "boundsMm": [
+        -23.412521480981013,
+        -9.105049042464998,
+        0.09987999922339998,
+        -5.1624814809810005,
+        9.145020957534882,
+        7.446579999223401
+      ],
+      "lightingIndex": 50,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "66",
+      "row": 3,
+      "column": 7,
+      "label": "J",
+      "physicalCode": "KeyJ",
+      "boundsMm": [
+        -4.362521480980945,
+        -9.105049042501491,
+        0.09987999922339998,
+        13.887518519019068,
+        9.145020957498389,
+        7.446579999223401
+      ],
+      "lightingIndex": 51,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "65",
+      "row": 3,
+      "column": 8,
+      "label": "K",
+      "physicalCode": "KeyK",
+      "boundsMm": [
+        14.68747851901901,
+        -9.105049042537985,
+        0.09987999922339998,
+        32.93751851901902,
+        9.145020957461895,
+        7.446579999223401
+      ],
+      "lightingIndex": 52,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "64",
+      "row": 3,
+      "column": 9,
+      "label": "L",
+      "physicalCode": "KeyL",
+      "boundsMm": [
+        33.73747851901908,
+        -9.105049042574478,
+        0.09987999922339998,
+        51.98751851901909,
+        9.145020957425402,
+        7.446579999223401
+      ],
+      "lightingIndex": 53,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "63",
+      "row": 3,
+      "column": 10,
+      "label": ";",
+      "physicalCode": "Semicolon",
+      "boundsMm": [
+        52.78747851901903,
+        -9.105049042610972,
+        0.09987999922339998,
+        71.03751851901905,
+        9.145020957388908,
+        7.446579999223401
+      ],
+      "lightingIndex": 54,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "62",
+      "row": 3,
+      "column": 11,
+      "label": "'",
+      "physicalCode": "Quote",
+      "boundsMm": [
+        71.83747851901899,
+        -9.105049042647465,
+        0.09987999922339998,
+        90.087518519019,
+        9.145020957352415,
+        7.446579999223401
+      ],
+      "lightingIndex": 55,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "76",
+      "row": 3,
+      "column": 12,
+      "label": "Enter",
+      "physicalCode": "Enter",
+      "boundsMm": [
+        90.9187613110189,
+        -9.105002856563203,
+        0.0999799992503,
+        132.91874131101895,
+        9.14500714351584,
+        7.531949999250299
+      ],
+      "lightingIndex": 56,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "61",
+      "row": 3,
+      "column": 13,
+      "label": "PgUp",
+      "physicalCode": "PageUp",
+      "boundsMm": [
+        133.749978519019,
+        -9.105049042766098,
+        0.09987999922339998,
+        152.00001851901902,
+        9.145020957233783,
+        7.446579999223401
+      ],
+      "lightingIndex": 57,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "79",
+      "row": 4,
+      "column": 0,
+      "label": "Shift",
+      "physicalCode": "ShiftLeft",
+      "boundsMm": [
+        -151.96874116738297,
+        -28.155002439588372,
+        0.0999199992599,
+        -109.968731167383,
+        -9.904992439426962,
+        8.7774899992599
+      ],
+      "lightingIndex": 58,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "54",
+      "row": 4,
+      "column": 1,
+      "label": "Z",
+      "physicalCode": "KeyZ",
+      "boundsMm": [
+        -109.13752094601762,
+        -28.15499916773439,
+        0.099929999,
+        -90.8874809460176,
+        -9.904999167700907,
+        8.818899999
+      ],
+      "lightingIndex": 59,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "53",
+      "row": 4,
+      "column": 2,
+      "label": "X",
+      "physicalCode": "KeyX",
+      "boundsMm": [
+        -90.08752094601766,
+        -28.15499916777088,
+        0.099929999,
+        -71.83748094601765,
+        -9.904999167737401,
+        8.818899999
+      ],
+      "lightingIndex": 60,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "52",
+      "row": 4,
+      "column": 3,
+      "label": "C",
+      "physicalCode": "KeyC",
+      "boundsMm": [
+        -71.03752094601737,
+        -28.154999167807375,
+        0.099929999,
+        -52.787480946017354,
+        -9.904999167773894,
+        8.818899999
+      ],
+      "lightingIndex": 61,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "51",
+      "row": 4,
+      "column": 4,
+      "label": "V",
+      "physicalCode": "KeyV",
+      "boundsMm": [
+        -51.98752094571739,
+        -28.15499916784387,
+        0.099929999,
+        -33.73748094571738,
+        -9.904999167810388,
+        8.818899999
+      ],
+      "lightingIndex": 62,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "50",
+      "row": 4,
+      "column": 5,
+      "label": "B",
+      "physicalCode": "KeyB",
+      "boundsMm": [
+        -32.937520945717324,
+        -28.154999167880362,
+        0.099929999,
+        -14.687480945717311,
+        -9.904999167846881,
+        8.818899999
+      ],
+      "lightingIndex": 63,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "49",
+      "row": 4,
+      "column": 6,
+      "label": "N",
+      "physicalCode": "KeyN",
+      "boundsMm": [
+        -13.88752094571737,
+        -28.154999167916912,
+        0.099929999,
+        4.362519054282643,
+        -9.904999167883432,
+        8.818899999
+      ],
+      "lightingIndex": 64,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "48",
+      "row": 4,
+      "column": 7,
+      "label": "M",
+      "physicalCode": "KeyM",
+      "boundsMm": [
+        5.162479054282699,
+        -28.154999167953406,
+        0.099929999,
+        23.41251905428271,
+        -9.904999167919925,
+        8.818899999
+      ],
+      "lightingIndex": 65,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "47",
+      "row": 4,
+      "column": 8,
+      "label": ",",
+      "physicalCode": "Comma",
+      "boundsMm": [
+        24.212479054282653,
+        -28.1549991679899,
+        0.099929999,
+        42.462519054282666,
+        -9.904999167956419,
+        8.818899999
+      ],
+      "lightingIndex": 66,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "46",
+      "row": 4,
+      "column": 9,
+      "label": ".",
+      "physicalCode": "Period",
+      "boundsMm": [
+        43.26247905428261,
+        -28.154999168026393,
+        0.099929999,
+        61.51251905428262,
+        -9.904999167992912,
+        8.818899999
+      ],
+      "lightingIndex": 67,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "45",
+      "row": 4,
+      "column": 10,
+      "label": "/",
+      "physicalCode": "Slash",
+      "boundsMm": [
+        62.312479054282676,
+        -28.154999168062886,
+        0.099929999,
+        80.56251905428269,
+        -9.904999168029406,
+        8.818899999
+      ],
+      "lightingIndex": 68,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "77",
+      "row": 4,
+      "column": 11,
+      "label": "Shift",
+      "physicalCode": "ShiftRight",
+      "boundsMm": [
+        81.45077984516911,
+        -28.024230405487934,
+        -0.3994997350704885,
+        113.8117198451691,
+        -10.034729596981455,
+        8.173879830156837
+      ],
+      "lightingIndex": 69,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "44",
+      "row": 4,
+      "column": 12,
+      "label": "↑",
+      "physicalCode": "ArrowUp",
+      "boundsMm": [
+        114.69997905428261,
+        -28.154999168163272,
+        0.099929999,
+        132.95001905428262,
+        -9.904999168129791,
+        8.818899999
+      ],
+      "lightingIndex": 70,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "43",
+      "row": 4,
+      "column": 13,
+      "label": "PgDn",
+      "physicalCode": "PageDown",
+      "boundsMm": [
+        133.74997905428268,
+        -28.154999168199765,
+        0.099929999,
+        152.0000190542827,
+        -9.904999168166285,
+        8.818899999
+      ],
+      "lightingIndex": 71,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "80",
+      "row": 5,
+      "column": 0,
+      "label": "Ctrl",
+      "physicalCode": "ControlLeft",
+      "boundsMm": [
+        -151.9437694620541,
+        -47.2050006719613,
+        0.09992999913150004,
+        -129.0437294620541,
+        -28.954990671918864,
+        8.834629999131499
+      ],
+      "lightingIndex": 72,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "81",
+      "row": 5,
+      "column": 1,
+      "label": "Win",
+      "physicalCode": "MetaLeft",
+      "boundsMm": [
+        -128.1312694620541,
+        -47.20500067200692,
+        0.09992999913150004,
+        -105.2312294620541,
+        -28.95499067196448,
+        8.834629999131499
+      ],
+      "lightingIndex": 73,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "82",
+      "row": 5,
+      "column": 2,
+      "label": "Alt",
+      "physicalCode": "AltLeft",
+      "boundsMm": [
+        -104.31876946205409,
+        -47.205000672052535,
+        0.09992999913150004,
+        -81.4187294620541,
+        -28.954990672010098,
+        8.834629999131499
+      ],
+      "lightingIndex": 74,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "1",
+      "row": 5,
+      "column": 3,
+      "label": "Space",
+      "physicalCode": "Space",
+      "boundsMm": [
+        -80.30625540936293,
+        -47.08000179068948,
+        0.10049868310100725,
+        37.443754590637525,
+        -29.079998189626394,
+        9.39955124280092
+      ],
+      "lightingIndex": 75,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "60",
+      "row": 5,
+      "column": 4,
+      "label": "Alt",
+      "physicalCode": "AltRight",
+      "boundsMm": [
+        38.49997905424607,
+        -47.20499916801725,
+        0.099929999,
+        56.75001905424608,
+        -28.95499916798377,
+        8.818899999
+      ],
+      "lightingIndex": 76,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "59",
+      "row": 5,
+      "column": 5,
+      "label": "Fn",
+      "physicalCode": "Fn",
+      "boundsMm": [
+        57.54997905424602,
+        -47.204999168053746,
+        0.099929999,
+        75.80001905424604,
+        -28.954999168020265,
+        8.818899999
+      ],
+      "lightingIndex": 77,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "58",
+      "row": 5,
+      "column": 6,
+      "label": "Ctrl",
+      "physicalCode": "ControlRight",
+      "boundsMm": [
+        76.59997905424609,
+        -47.204999168090296,
+        0.099929999,
+        94.8500190542461,
+        -28.954999168056816,
+        8.818899999
+      ],
+      "lightingIndex": 78,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "57",
+      "row": 5,
+      "column": 7,
+      "label": "←",
+      "physicalCode": "ArrowLeft",
+      "boundsMm": [
+        95.64997905424605,
+        -47.20499916812679,
+        0.099929999,
+        113.90001905424606,
+        -28.95499916809331,
+        8.818899999
+      ],
+      "lightingIndex": 79,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "56",
+      "row": 5,
+      "column": 8,
+      "label": "↓",
+      "physicalCode": "ArrowDown",
+      "boundsMm": [
+        114.699979054246,
+        -47.20499916816328,
+        0.099929999,
+        132.950019054246,
+        -28.954999168129802,
+        8.818899999
+      ],
+      "lightingIndex": 80,
+      "firmwareKeyId": null,
+      "module": "base"
+    },
+    {
+      "id": "55",
+      "row": 5,
+      "column": 9,
+      "label": "→",
+      "physicalCode": "ArrowRight",
+      "boundsMm": [
+        133.74997905424607,
+        -47.20499916819978,
+        0.099929999,
+        152.00001905424608,
+        -28.954999168166296,
+        8.818899999
+      ],
+      "lightingIndex": 81,
+      "firmwareKeyId": null,
+      "module": "base"
+    }
+  ],
+  "roles": {
+    "1": "keycap",
+    "2": "keycap",
+    "3": "keycap",
+    "4": "keycap",
+    "5": "keycap",
+    "6": "keycap",
+    "7": "keycap",
+    "8": "keycap",
+    "9": "keycap",
+    "10": "keycap",
+    "11": "keycap",
+    "12": "keycap",
+    "13": "keycap",
+    "14": "keycap",
+    "15": "keycap",
+    "16": "keycap",
+    "17": "keycap",
+    "18": "keycap",
+    "19": "keycap",
+    "20": "keycap",
+    "21": "keycap",
+    "22": "keycap",
+    "23": "keycap",
+    "24": "keycap",
+    "25": "keycap",
+    "26": "keycap",
+    "27": "keycap",
+    "28": "keycap",
+    "29": "keycap",
+    "30": "keycap",
+    "31": "keycap",
+    "32": "keycap",
+    "33": "keycap",
+    "34": "keycap",
+    "35": "keycap",
+    "36": "keycap",
+    "37": "keycap",
+    "38": "keycap",
+    "39": "keycap",
+    "40": "keycap",
+    "41": "keycap",
+    "42": "keycap",
+    "43": "keycap",
+    "44": "keycap",
+    "45": "keycap",
+    "46": "keycap",
+    "47": "keycap",
+    "48": "keycap",
+    "49": "keycap",
+    "50": "keycap",
+    "51": "keycap",
+    "52": "keycap",
+    "53": "keycap",
+    "54": "keycap",
+    "55": "keycap",
+    "56": "keycap",
+    "57": "keycap",
+    "58": "keycap",
+    "59": "keycap",
+    "60": "keycap",
+    "61": "keycap",
+    "62": "keycap",
+    "63": "keycap",
+    "64": "keycap",
+    "65": "keycap",
+    "66": "keycap",
+    "67": "keycap",
+    "68": "keycap",
+    "69": "keycap",
+    "70": "keycap",
+    "71": "keycap",
+    "72": "keycap",
+    "73": "keycap",
+    "74": "keycap",
+    "75": "keycap",
+    "76": "keycap",
+    "77": "keycap",
+    "78": "keycap",
+    "79": "keycap",
+    "80": "keycap",
+    "81": "keycap",
+    "82": "keycap",
+    "83": "omitted",
+    "84": "omitted",
+    "85": "omitted",
+    "86": "exterior",
+    "87": "exterior",
+    "88": "omitted",
+    "89": "omitted",
+    "90": "omitted",
+    "91": "omitted",
+    "92": "omitted",
+    "93": "omitted",
+    "94": "omitted",
+    "95": "omitted",
+    "96": "omitted",
+    "97": "omitted",
+    "98": "omitted",
+    "99": "omitted",
+    "100": "omitted",
+    "101": "omitted",
+    "102": "omitted",
+    "103": "omitted",
+    "104": "omitted",
+    "105": "exterior",
+    "106": "exterior",
+    "107": "omitted",
+    "108": "omitted",
+    "109": "omitted",
+    "110": "omitted",
+    "111": "omitted",
+    "112": "omitted",
+    "113": "omitted",
+    "114": "omitted",
+    "115": "omitted",
+    "116": "omitted",
+    "117": "omitted",
+    "118": "omitted",
+    "119": "omitted",
+    "120": "omitted",
+    "121": "omitted",
+    "122": "omitted",
+    "123": "omitted",
+    "124": "omitted",
+    "125": "omitted",
+    "126": "omitted",
+    "127": "omitted",
+    "128": "omitted",
+    "129": "omitted",
+    "130": "omitted",
+    "131": "omitted",
+    "132": "omitted",
+    "133": "omitted",
+    "134": "omitted",
+    "135": "omitted",
+    "136": "omitted",
+    "137": "omitted",
+    "138": "omitted",
+    "139": "omitted",
+    "140": "omitted",
+    "141": "omitted",
+    "142": "omitted",
+    "143": "omitted",
+    "144": "omitted",
+    "145": "omitted",
+    "146": "omitted",
+    "147": "omitted",
+    "148": "omitted",
+    "149": "omitted",
+    "150": "omitted",
+    "151": "omitted",
+    "152": "omitted",
+    "153": "omitted",
+    "154": "omitted",
+    "155": "omitted",
+    "156": "omitted",
+    "157": "omitted",
+    "158": "omitted",
+    "159": "omitted",
+    "160": "omitted",
+    "161": "omitted",
+    "162": "omitted",
+    "163": "omitted",
+    "164": "omitted",
+    "165": "omitted",
+    "166": "omitted",
+    "167": "omitted",
+    "168": "omitted",
+    "169": "omitted",
+    "170": "omitted",
+    "171": "omitted",
+    "172": "omitted",
+    "173": "omitted",
+    "174": "omitted",
+    "175": "omitted",
+    "176": "omitted",
+    "177": "omitted",
+    "178": "omitted",
+    "179": "omitted",
+    "180": "omitted",
+    "181": "omitted",
+    "182": "omitted",
+    "183": "omitted",
+    "184": "omitted",
+    "185": "omitted",
+    "186": "omitted",
+    "187": "omitted",
+    "188": "omitted",
+    "189": "omitted",
+    "190": "omitted",
+    "191": "omitted",
+    "192": "omitted",
+    "193": "omitted",
+    "194": "omitted",
+    "195": "omitted",
+    "196": "omitted",
+    "197": "omitted",
+    "198": "omitted",
+    "199": "omitted",
+    "200": "omitted",
+    "201": "omitted",
+    "202": "omitted",
+    "203": "omitted",
+    "204": "omitted",
+    "205": "omitted",
+    "206": "omitted",
+    "207": "omitted",
+    "208": "omitted",
+    "209": "omitted",
+    "210": "omitted",
+    "211": "omitted",
+    "212": "omitted",
+    "213": "omitted",
+    "214": "omitted",
+    "215": "omitted",
+    "216": "omitted",
+    "217": "omitted",
+    "218": "omitted",
+    "219": "omitted",
+    "220": "omitted",
+    "221": "omitted",
+    "222": "omitted",
+    "223": "omitted",
+    "224": "omitted",
+    "225": "omitted",
+    "226": "omitted",
+    "227": "omitted",
+    "228": "omitted",
+    "229": "omitted",
+    "230": "omitted",
+    "231": "omitted",
+    "232": "omitted",
+    "233": "omitted",
+    "234": "omitted",
+    "235": "omitted",
+    "236": "omitted",
+    "237": "omitted",
+    "238": "omitted",
+    "239": "omitted",
+    "240": "omitted",
+    "241": "omitted",
+    "242": "omitted",
+    "243": "omitted",
+    "244": "omitted",
+    "245": "omitted",
+    "246": "omitted",
+    "247": "omitted",
+    "248": "omitted",
+    "249": "omitted",
+    "250": "omitted",
+    "251": "omitted",
+    "252": "omitted",
+    "253": "omitted",
+    "254": "omitted",
+    "255": "omitted",
+    "256": "omitted",
+    "257": "omitted",
+    "258": "omitted",
+    "259": "omitted",
+    "260": "omitted",
+    "261": "omitted",
+    "262": "omitted",
+    "263": "omitted",
+    "264": "omitted",
+    "265": "omitted",
+    "266": "omitted",
+    "267": "omitted",
+    "268": "omitted",
+    "269": "omitted",
+    "270": "omitted",
+    "271": "omitted",
+    "272": "omitted",
+    "273": "omitted",
+    "274": "exterior",
+    "275": "omitted",
+    "276": "exterior",
+    "277": "omitted",
+    "278": "exterior",
+    "279": "exterior",
+    "280": "exterior",
+    "281": "exterior",
+    "282": "exterior",
+    "283": "exterior",
+    "284": "omitted",
+    "285": "omitted",
+    "9001": "exterior"
+  },
+  "legendKeyMap": {
+    "16": "Escape",
+    "17": "F1",
+    "18": "F2",
+    "19": "F3",
+    "20": "F4",
+    "21": "F5",
+    "22": "F6",
+    "23": "F7",
+    "24": "F8",
+    "25": "F9",
+    "26": "F10",
+    "27": "F11",
+    "28": "F12",
+    "29": "Home",
+    "15": "Backquote",
+    "14": "Digit1",
+    "13": "Digit2",
+    "12": "Digit3",
+    "11": "Digit4",
+    "10": "Digit5",
+    "9": "Digit6",
+    "8": "Digit7",
+    "7": "Digit8",
+    "6": "Digit9",
+    "5": "Digit0",
+    "4": "Minus",
+    "3": "Equal",
+    "74": "Backspace",
+    "2": "Insert",
+    "75": "Tab",
+    "42": "KeyQ",
+    "41": "KeyW",
+    "40": "KeyE",
+    "39": "KeyR",
+    "38": "KeyT",
+    "37": "KeyY",
+    "36": "KeyU",
+    "35": "KeyI",
+    "34": "KeyO",
+    "33": "KeyP",
+    "32": "BracketLeft",
+    "31": "BracketRight",
+    "73": "Backslash",
+    "30": "Delete",
+    "78": "CapsLock",
+    "72": "KeyA",
+    "71": "KeyS",
+    "70": "KeyD",
+    "69": "KeyF",
+    "68": "KeyG",
+    "67": "KeyH",
+    "66": "KeyJ",
+    "65": "KeyK",
+    "64": "KeyL",
+    "63": "Semicolon",
+    "62": "Quote",
+    "76": "Enter",
+    "61": "PageUp",
+    "79": "ShiftLeft",
+    "54": "KeyZ",
+    "53": "KeyX",
+    "52": "KeyC",
+    "51": "KeyV",
+    "50": "KeyB",
+    "49": "KeyN",
+    "48": "KeyM",
+    "47": "Comma",
+    "46": "Period",
+    "45": "Slash",
+    "77": "ShiftRight",
+    "44": "ArrowUp",
+    "43": "PageDown",
+    "80": "ControlLeft",
+    "81": "MetaLeft",
+    "82": "AltLeft",
+    "1": "Space",
+    "60": "AltRight",
+    "59": "Fn",
+    "58": "ControlRight",
+    "57": "ArrowLeft",
+    "56": "ArrowDown",
+    "55": "ArrowRight"
+  },
+  "firmwareMapping": "pending-hardware-readback",
+  "pressTravelMm": 3,
+  "groundOffsetMm": 36.22,
+  "viewCenterHeight": 0.023,
+  "interactionGroups": {},
+  "keycapVariants": {
+    "16": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "17": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "18": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "19": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "20": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "21": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "22": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "23": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "24": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "25": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "26": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "27": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "28": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "29": {
+      "sourceId": 22,
+      "sourceBoundsMm": [
+        -8.98353,
+        -8.99254,
+        0.0,
+        8.98638,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "15": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "14": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "13": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "12": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "11": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "10": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "9": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "8": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "7": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "6": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "5": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "4": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "3": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "74": {
+      "sourceId": 6,
+      "sourceBoundsMm": [
+        18.94942,
+        238.02769,
+        0.0,
+        36.93325,
+        275.01231,
+        9.99617
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "2": {
+      "sourceId": 3,
+      "sourceBoundsMm": [
+        18.94981,
+        -8.99254,
+        0.0,
+        36.91973,
+        8.99254,
+        9.90988
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "75": {
+      "sourceId": 13,
+      "sourceBoundsMm": [
+        37.94902,
+        -9.0285,
+        0.0,
+        55.93454,
+        18.44829,
+        7.79793
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "42": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "41": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "40": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "39": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "38": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "37": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "36": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "35": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "34": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "33": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "32": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "31": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "73": {
+      "sourceId": 17,
+      "sourceBoundsMm": [
+        37.94903,
+        247.49162,
+        0.0,
+        55.93455,
+        274.96842,
+        7.79682
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "30": {
+      "sourceId": 14,
+      "sourceBoundsMm": [
+        37.94903,
+        19.48593,
+        0.0,
+        55.9246,
+        37.4741,
+        7.96581
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "78": {
+      "sourceId": 11,
+      "sourceBoundsMm": [
+        56.94828,
+        -9.02197,
+        -1e-05,
+        74.93519,
+        23.22207,
+        7.43654
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "72": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "71": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "70": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "69": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "68": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "67": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "66": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "65": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "64": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "63": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "62": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "76": {
+      "sourceId": 7,
+      "sourceBoundsMm": [
+        56.94956,
+        233.22827,
+        -1e-05,
+        74.93508,
+        274.97169,
+        7.53732
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "61": {
+      "sourceId": 8,
+      "sourceBoundsMm": [
+        56.94903,
+        24.22448,
+        0.0,
+        74.93455,
+        42.21563,
+        7.28779
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "79": {
+      "sourceId": 15,
+      "sourceBoundsMm": [
+        75.94932,
+        -9.02666,
+        0.00049,
+        93.93484,
+        32.71475,
+        8.73611
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "54": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "53": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "52": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "51": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "50": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "49": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "48": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "47": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "46": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "45": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "77": {
+      "sourceId": 12,
+      "sourceBoundsMm": [
+        75.95137,
+        438.1988,
+        -1e-05,
+        93.93689,
+        470.44048,
+        8.60878
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "44": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "43": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "80": {
+      "sourceId": 10,
+      "sourceBoundsMm": [
+        94.94903,
+        -9.10671,
+        -4e-05,
+        112.93457,
+        13.63582,
+        8.65521
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "81": {
+      "sourceId": 10,
+      "sourceBoundsMm": [
+        94.94903,
+        -9.10671,
+        -4e-05,
+        112.93457,
+        13.63582,
+        8.65521
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "82": {
+      "sourceId": 10,
+      "sourceBoundsMm": [
+        94.94903,
+        -9.10671,
+        -4e-05,
+        112.93457,
+        13.63582,
+        8.65521
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "1": {
+      "sourceId": 16,
+      "sourceBoundsMm": [
+        94.94254,
+        62.16338,
+        0.0,
+        112.92928,
+        179.9059,
+        9.41522
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "60": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "59": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "58": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "57": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "56": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    },
+    "55": {
+      "sourceId": 9,
+      "sourceBoundsMm": [
+        75.95168,
+        33.69726,
+        0.0,
+        93.9372,
+        51.69102,
+        8.65258
+      ],
+      "rotationZDegrees": -90,
+      "align": "CAD key center and underside; no shape stretching"
+    }
+  },
+  "assembly": {
+    "fRow": {
+      "sourceIds": [
+        278,
+        283
+      ],
+      "keyIds": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    "screen": {
+      "sourceIds": [
+        86,
+        87,
+        276
+      ],
+      "lensSourceId": 86,
+      "centerMeters": [
+        1.6603000005943613e-09,
+        0.039419640335072,
+        -0.06548959042433
+      ],
+      "widthMm": 316.726594439,
+      "heightMm": 27.035812959232263,
+      "cols": 67,
+      "rows": 5,
+      "tiltRadians": 0.17453292519940447,
+      "ledSourceId": 84,
+      "guideSourceId": 107,
+      "visibleGlassSourceId": 87,
+      "pixelCentersMeters": [
+        [
+          -0.15246,
+          0.041094819,
+          -0.0749900009
+        ],
+        [
+          -0.14784,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.14322,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.1386,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.13398,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.12936,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.12474,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.12012,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.1155,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.11088,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.10626,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.10164,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.09702,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.0924,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.08778,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.08316,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.07854,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.07392,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.0693,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.06468,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.06006,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.05544,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.05082,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.0462,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.04158,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.03696,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.03234,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.02772,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.0231,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.01848,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.01386,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.00924,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.00462,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.0,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.00462,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.00924,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.01386,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.01848,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.0231,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.02772,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.03234,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.03696,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.04158,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.0462,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.05082,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.05544,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.06006,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.06468,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.0693,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.07392,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.07854,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.08316,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.08778,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.0924,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.09702,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.10164,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.10626,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.11088,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.1155,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.12012,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.12474,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.12936,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.13398,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.1386,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.14322,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.14784,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          0.15246,
+          0.0410948189,
+          -0.07499
+        ],
+        [
+          -0.15246,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.14784,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.14322,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.1386,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.13398,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.12936,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.12474,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.12012,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.1155,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.11088,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.10626,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.10164,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.09702,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.0924,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.08778,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.08316,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.07854,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.07392,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.0693,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.06468,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.06006,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.05544,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.05082,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.0462,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.04158,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.03696,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.03234,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.02772,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.0231,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.01848,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.01386,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.00924,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.00462,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.0,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.00462,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.00924,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.01386,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.01848,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.0231,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.02772,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.03234,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.03696,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.04158,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.0462,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.05082,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.05544,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.06006,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.06468,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.0693,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.07392,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.07854,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.08316,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.08778,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.0924,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.09702,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.10164,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.10626,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.11088,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.1155,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.12012,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.12474,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.12936,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.13398,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.1386,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.14322,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.14784,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          0.15246,
+          0.0402801882,
+          -0.07037
+        ],
+        [
+          -0.15246,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.1478401412,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.14322,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.1386,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.13398,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.12936,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.12474,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.12012,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.1155,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.11088,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.10626,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.10164,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.09702,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.0924,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.08778,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.08316,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.07854,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.07392,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.0693,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.06468,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.06006,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.05544,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.05082,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.0461998427,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.04158,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.03696,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.03234,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.02772,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.0231020525,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.01848,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.01386,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.0092417043,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.00462,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.0,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.00462,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.0092416291,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.01386,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.01848,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.0231019773,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.02772,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.03234,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.03696,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.04158,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.0461997925,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.05082,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.05544,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.06006,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.06468,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.0693,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.07392,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.07854,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.08316,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.08778,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.0924,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.09702,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.10164,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.10626,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.11088,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.1155,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.12012,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.12474,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.12936,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.13398,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.1386,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.14322,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.147840091,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          0.15246,
+          0.0394655576,
+          -0.06575
+        ],
+        [
+          -0.15246,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.14784,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.14322,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.1386,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.13398,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.12936,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.12474,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.12012,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.1155,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.11088,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.10626,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.10164,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.09702,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.0924,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.08778,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.08316,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.07854,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.07392,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.0693,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.06468,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.06006,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.05544,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.05082,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.0462,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.04158,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.03696,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.03234,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.02772,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.0231,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.01848,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.01386,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.00924,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.00462,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.0,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.00462,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.00924,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.01386,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.01848,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.0231,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.02772,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.03234,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.03696,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.04158,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.0462,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.05082,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.05544,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.06006,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.06468,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.0693,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.07392,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.07854,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.08316,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.08778,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.0924,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.09702,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.10164,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.10626,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.11088,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.1155,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.12012,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.12474,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.12936,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.13398,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.1386,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.14322,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.14784,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          0.15246,
+          0.0386509269,
+          -0.06113
+        ],
+        [
+          -0.15246,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.14784,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.14322,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.1386,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.13398,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.12936,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.12474,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.12012,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.1155,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.11088,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.10626,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.10164,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.09702,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.0924,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.08778,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.08316,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.07854,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.07392,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.0693,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.06468,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.06006,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.05544,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.05082,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.0462,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.04158,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.03696,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.03234,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.02772,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.0231,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.01848,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.01386,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.00924,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          -0.00462,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.0,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.00462,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.00924,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.01386,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.01848,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.0231,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.02772,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.03234,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.03696,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.04158,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.0462,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.05082,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.05544,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.06006,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.06468,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.0693,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.07392,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.07854,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.08316,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.08778,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.0924,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.09702,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.10164,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.10626,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.11088,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.1155,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.12012,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.12474,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.12936,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.13398,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.1386,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.14322,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.14784,
+          0.0378362963,
+          -0.05651
+        ],
+        [
+          0.15246,
+          0.0378362963,
+          -0.05651
+        ]
+      ],
+      "pixelUV": [
+        [
+          0.0186384587,
+          0.1431781188
+        ],
+        [
+          0.0332251719,
+          0.1431781533
+        ],
+        [
+          0.0478118852,
+          0.1431781533
+        ],
+        [
+          0.0623985984,
+          0.1431781533
+        ],
+        [
+          0.0769853116,
+          0.1431781533
+        ],
+        [
+          0.0915720248,
+          0.1431781533
+        ],
+        [
+          0.106158738,
+          0.1431781533
+        ],
+        [
+          0.1207454512,
+          0.1431781533
+        ],
+        [
+          0.1353321644,
+          0.1431781533
+        ],
+        [
+          0.1499188776,
+          0.1431781533
+        ],
+        [
+          0.1645055909,
+          0.1431781533
+        ],
+        [
+          0.1790923041,
+          0.1431781533
+        ],
+        [
+          0.1936790173,
+          0.1431781533
+        ],
+        [
+          0.2082657305,
+          0.1431781533
+        ],
+        [
+          0.2228524437,
+          0.1431781533
+        ],
+        [
+          0.2374391569,
+          0.1431781533
+        ],
+        [
+          0.2520258701,
+          0.1431781533
+        ],
+        [
+          0.2666125834,
+          0.1431781533
+        ],
+        [
+          0.2811992966,
+          0.1431781533
+        ],
+        [
+          0.2957860098,
+          0.1431781533
+        ],
+        [
+          0.310372723,
+          0.1431781533
+        ],
+        [
+          0.3249594362,
+          0.1431781533
+        ],
+        [
+          0.3395461494,
+          0.1431781533
+        ],
+        [
+          0.3541328626,
+          0.1431781533
+        ],
+        [
+          0.3687195758,
+          0.1431781533
+        ],
+        [
+          0.3833062891,
+          0.1431781533
+        ],
+        [
+          0.3978930023,
+          0.1431781533
+        ],
+        [
+          0.4124797155,
+          0.1431781533
+        ],
+        [
+          0.4270664287,
+          0.1431781533
+        ],
+        [
+          0.4416531419,
+          0.1431781533
+        ],
+        [
+          0.4562398551,
+          0.1431781533
+        ],
+        [
+          0.4708265683,
+          0.1431781533
+        ],
+        [
+          0.4854132815,
+          0.1431781533
+        ],
+        [
+          0.4999999948,
+          0.1431781533
+        ],
+        [
+          0.514586708,
+          0.1431781533
+        ],
+        [
+          0.5291734212,
+          0.1431781533
+        ],
+        [
+          0.5437601344,
+          0.1431781533
+        ],
+        [
+          0.5583468476,
+          0.1431781533
+        ],
+        [
+          0.5729335608,
+          0.1431781533
+        ],
+        [
+          0.587520274,
+          0.1431781533
+        ],
+        [
+          0.6021069872,
+          0.1431781533
+        ],
+        [
+          0.6166937005,
+          0.1431781533
+        ],
+        [
+          0.6312804137,
+          0.1431781533
+        ],
+        [
+          0.6458671269,
+          0.1431781533
+        ],
+        [
+          0.6604538401,
+          0.1431781533
+        ],
+        [
+          0.6750405533,
+          0.1431781533
+        ],
+        [
+          0.6896272665,
+          0.1431781533
+        ],
+        [
+          0.7042139797,
+          0.1431781533
+        ],
+        [
+          0.718800693,
+          0.1431781533
+        ],
+        [
+          0.7333874062,
+          0.1431781533
+        ],
+        [
+          0.7479741194,
+          0.1431781533
+        ],
+        [
+          0.7625608326,
+          0.1431781533
+        ],
+        [
+          0.7771475458,
+          0.1431781533
+        ],
+        [
+          0.791734259,
+          0.1431781533
+        ],
+        [
+          0.8063209722,
+          0.1431781533
+        ],
+        [
+          0.8209076854,
+          0.1431781533
+        ],
+        [
+          0.8354943987,
+          0.1431781533
+        ],
+        [
+          0.8500811119,
+          0.1431781533
+        ],
+        [
+          0.8646678251,
+          0.1431781533
+        ],
+        [
+          0.8792545383,
+          0.1431781533
+        ],
+        [
+          0.8938412515,
+          0.1431781533
+        ],
+        [
+          0.9084279647,
+          0.1431781533
+        ],
+        [
+          0.9230146779,
+          0.1431781533
+        ],
+        [
+          0.9376013911,
+          0.1431781533
+        ],
+        [
+          0.9521881044,
+          0.1431781533
+        ],
+        [
+          0.9667748176,
+          0.1431781533
+        ],
+        [
+          0.9813615308,
+          0.1431781533
+        ],
+        [
+          0.0186384587,
+          0.3166987704
+        ],
+        [
+          0.0332251719,
+          0.3166987704
+        ],
+        [
+          0.0478118852,
+          0.3166987704
+        ],
+        [
+          0.0623985984,
+          0.3166987704
+        ],
+        [
+          0.0769853116,
+          0.3166987704
+        ],
+        [
+          0.0915720248,
+          0.3166987704
+        ],
+        [
+          0.106158738,
+          0.3166987704
+        ],
+        [
+          0.1207454512,
+          0.3166987704
+        ],
+        [
+          0.1353321644,
+          0.3166987704
+        ],
+        [
+          0.1499188776,
+          0.3166987704
+        ],
+        [
+          0.1645055909,
+          0.3166987704
+        ],
+        [
+          0.1790923041,
+          0.3166987704
+        ],
+        [
+          0.1936790173,
+          0.3166987704
+        ],
+        [
+          0.2082657305,
+          0.3166987704
+        ],
+        [
+          0.2228524437,
+          0.3166987704
+        ],
+        [
+          0.2374391569,
+          0.3166987704
+        ],
+        [
+          0.2520258701,
+          0.3166987704
+        ],
+        [
+          0.2666125834,
+          0.3166987704
+        ],
+        [
+          0.2811992966,
+          0.3166987704
+        ],
+        [
+          0.2957860098,
+          0.3166987704
+        ],
+        [
+          0.310372723,
+          0.3166987704
+        ],
+        [
+          0.3249594362,
+          0.3166987704
+        ],
+        [
+          0.3395461494,
+          0.3166987704
+        ],
+        [
+          0.3541328626,
+          0.3166987704
+        ],
+        [
+          0.3687195758,
+          0.3166987704
+        ],
+        [
+          0.3833062891,
+          0.3166987704
+        ],
+        [
+          0.3978930023,
+          0.3166987704
+        ],
+        [
+          0.4124797155,
+          0.3166987704
+        ],
+        [
+          0.4270664287,
+          0.3166987704
+        ],
+        [
+          0.4416531419,
+          0.3166987704
+        ],
+        [
+          0.4562398551,
+          0.3166987704
+        ],
+        [
+          0.4708265683,
+          0.3166987704
+        ],
+        [
+          0.4854132815,
+          0.3166987704
+        ],
+        [
+          0.4999999948,
+          0.3166987704
+        ],
+        [
+          0.514586708,
+          0.3166987704
+        ],
+        [
+          0.5291734212,
+          0.3166987704
+        ],
+        [
+          0.5437601344,
+          0.3166987704
+        ],
+        [
+          0.5583468476,
+          0.3166987704
+        ],
+        [
+          0.5729335608,
+          0.3166987704
+        ],
+        [
+          0.587520274,
+          0.3166987704
+        ],
+        [
+          0.6021069872,
+          0.3166987704
+        ],
+        [
+          0.6166937005,
+          0.3166987704
+        ],
+        [
+          0.6312804137,
+          0.3166987704
+        ],
+        [
+          0.6458671269,
+          0.3166987704
+        ],
+        [
+          0.6604538401,
+          0.3166987704
+        ],
+        [
+          0.6750405533,
+          0.3166987704
+        ],
+        [
+          0.6896272665,
+          0.3166987704
+        ],
+        [
+          0.7042139797,
+          0.3166987704
+        ],
+        [
+          0.718800693,
+          0.3166987704
+        ],
+        [
+          0.7333874062,
+          0.3166987704
+        ],
+        [
+          0.7479741194,
+          0.3166987704
+        ],
+        [
+          0.7625608326,
+          0.3166987704
+        ],
+        [
+          0.7771475458,
+          0.3166987704
+        ],
+        [
+          0.791734259,
+          0.3166987704
+        ],
+        [
+          0.8063209722,
+          0.3166987704
+        ],
+        [
+          0.8209076854,
+          0.3166987704
+        ],
+        [
+          0.8354943987,
+          0.3166987704
+        ],
+        [
+          0.8500811119,
+          0.3166987704
+        ],
+        [
+          0.8646678251,
+          0.3166987704
+        ],
+        [
+          0.8792545383,
+          0.3166987704
+        ],
+        [
+          0.8938412515,
+          0.3166987704
+        ],
+        [
+          0.9084279647,
+          0.3166987704
+        ],
+        [
+          0.9230146779,
+          0.3166987704
+        ],
+        [
+          0.9376013911,
+          0.3166987704
+        ],
+        [
+          0.9521881044,
+          0.3166987704
+        ],
+        [
+          0.9667748176,
+          0.3166987704
+        ],
+        [
+          0.9813615308,
+          0.3166987704
+        ],
+        [
+          0.0186384587,
+          0.4902193874
+        ],
+        [
+          0.0332247263,
+          0.4902193874
+        ],
+        [
+          0.0478118852,
+          0.4902193874
+        ],
+        [
+          0.0623985984,
+          0.4902193874
+        ],
+        [
+          0.0769853116,
+          0.4902193874
+        ],
+        [
+          0.0915720248,
+          0.4902193874
+        ],
+        [
+          0.106158738,
+          0.4902193874
+        ],
+        [
+          0.1207454512,
+          0.4902193874
+        ],
+        [
+          0.1353321644,
+          0.4902193874
+        ],
+        [
+          0.1499188776,
+          0.4902193874
+        ],
+        [
+          0.1645055909,
+          0.4902193874
+        ],
+        [
+          0.1790923041,
+          0.4902193874
+        ],
+        [
+          0.1936790173,
+          0.4902193874
+        ],
+        [
+          0.2082657305,
+          0.4902193874
+        ],
+        [
+          0.2228524437,
+          0.4902193874
+        ],
+        [
+          0.2374391569,
+          0.4902193874
+        ],
+        [
+          0.2520258701,
+          0.4902193874
+        ],
+        [
+          0.2666125834,
+          0.4902193874
+        ],
+        [
+          0.2811992966,
+          0.4902193874
+        ],
+        [
+          0.2957860098,
+          0.4902193874
+        ],
+        [
+          0.310372723,
+          0.4902193874
+        ],
+        [
+          0.3249594362,
+          0.4902193874
+        ],
+        [
+          0.3395461494,
+          0.4902193874
+        ],
+        [
+          0.3541333594,
+          0.4902193874
+        ],
+        [
+          0.3687195758,
+          0.4902193874
+        ],
+        [
+          0.3833062891,
+          0.4902193874
+        ],
+        [
+          0.3978930023,
+          0.4902193874
+        ],
+        [
+          0.4124797155,
+          0.4902193874
+        ],
+        [
+          0.4270599482,
+          0.4902193874
+        ],
+        [
+          0.4416531419,
+          0.4902193874
+        ],
+        [
+          0.4562398551,
+          0.4902193874
+        ],
+        [
+          0.4708211874,
+          0.4902193874
+        ],
+        [
+          0.4854132815,
+          0.4902193874
+        ],
+        [
+          0.4999999948,
+          0.4902193874
+        ],
+        [
+          0.514586708,
+          0.4902193874
+        ],
+        [
+          0.5291785646,
+          0.4902193874
+        ],
+        [
+          0.5437601344,
+          0.4902193874
+        ],
+        [
+          0.5583468476,
+          0.4902193874
+        ],
+        [
+          0.5729398038,
+          0.4902193874
+        ],
+        [
+          0.587520274,
+          0.4902193874
+        ],
+        [
+          0.6021069872,
+          0.4902193874
+        ],
+        [
+          0.6166937005,
+          0.4902193874
+        ],
+        [
+          0.6312804137,
+          0.4902193874
+        ],
+        [
+          0.6458664718,
+          0.4902193874
+        ],
+        [
+          0.6604538401,
+          0.4902193874
+        ],
+        [
+          0.6750405533,
+          0.4902193874
+        ],
+        [
+          0.6896272665,
+          0.4902193874
+        ],
+        [
+          0.7042139797,
+          0.4902193874
+        ],
+        [
+          0.718800693,
+          0.4902193874
+        ],
+        [
+          0.7333874062,
+          0.4902193874
+        ],
+        [
+          0.7479741194,
+          0.4902193874
+        ],
+        [
+          0.7625608326,
+          0.4902193874
+        ],
+        [
+          0.7771475458,
+          0.4902193874
+        ],
+        [
+          0.791734259,
+          0.4902193874
+        ],
+        [
+          0.8063209722,
+          0.4902193874
+        ],
+        [
+          0.8209076854,
+          0.4902193874
+        ],
+        [
+          0.8354943987,
+          0.4902193874
+        ],
+        [
+          0.8500811119,
+          0.4902193874
+        ],
+        [
+          0.8646678251,
+          0.4902193874
+        ],
+        [
+          0.8792545383,
+          0.4902193874
+        ],
+        [
+          0.8938412515,
+          0.4902193874
+        ],
+        [
+          0.9084279647,
+          0.4902193874
+        ],
+        [
+          0.9230146779,
+          0.4902193874
+        ],
+        [
+          0.9376013911,
+          0.4902193874
+        ],
+        [
+          0.9521881044,
+          0.4902193874
+        ],
+        [
+          0.9667751049,
+          0.4902193874
+        ],
+        [
+          0.9813615308,
+          0.4902193874
+        ],
+        [
+          0.0186384587,
+          0.6637400044
+        ],
+        [
+          0.0332251719,
+          0.6637400044
+        ],
+        [
+          0.0478118852,
+          0.6637400044
+        ],
+        [
+          0.0623985984,
+          0.6637400044
+        ],
+        [
+          0.0769853116,
+          0.6637400044
+        ],
+        [
+          0.0915720248,
+          0.6637400044
+        ],
+        [
+          0.106158738,
+          0.6637400044
+        ],
+        [
+          0.1207454512,
+          0.6637400044
+        ],
+        [
+          0.1353321644,
+          0.6637400044
+        ],
+        [
+          0.1499188776,
+          0.6637400044
+        ],
+        [
+          0.1645055909,
+          0.6637400044
+        ],
+        [
+          0.1790923041,
+          0.6637400044
+        ],
+        [
+          0.1936790173,
+          0.6637400044
+        ],
+        [
+          0.2082657305,
+          0.6637400044
+        ],
+        [
+          0.2228524437,
+          0.6637400044
+        ],
+        [
+          0.2374391569,
+          0.6637400044
+        ],
+        [
+          0.2520258701,
+          0.6637400044
+        ],
+        [
+          0.2666125834,
+          0.6637400044
+        ],
+        [
+          0.2811992966,
+          0.6637400044
+        ],
+        [
+          0.2957860098,
+          0.6637400044
+        ],
+        [
+          0.310372723,
+          0.6637400044
+        ],
+        [
+          0.3249594362,
+          0.6637400044
+        ],
+        [
+          0.3395461494,
+          0.6637400044
+        ],
+        [
+          0.3541328626,
+          0.6637400044
+        ],
+        [
+          0.3687195758,
+          0.6637400044
+        ],
+        [
+          0.3833062891,
+          0.6637400044
+        ],
+        [
+          0.3978930023,
+          0.6637400044
+        ],
+        [
+          0.4124797155,
+          0.6637400044
+        ],
+        [
+          0.4270664287,
+          0.6637400044
+        ],
+        [
+          0.4416531419,
+          0.6637400044
+        ],
+        [
+          0.4562398551,
+          0.6637400044
+        ],
+        [
+          0.4708265683,
+          0.6637400044
+        ],
+        [
+          0.4854132815,
+          0.6637400044
+        ],
+        [
+          0.4999999948,
+          0.6637400044
+        ],
+        [
+          0.514586708,
+          0.6637400044
+        ],
+        [
+          0.5291734212,
+          0.6637400044
+        ],
+        [
+          0.5437601344,
+          0.6637400044
+        ],
+        [
+          0.5583468476,
+          0.6637400044
+        ],
+        [
+          0.5729335608,
+          0.6637400044
+        ],
+        [
+          0.587520274,
+          0.6637400044
+        ],
+        [
+          0.6021069872,
+          0.6637400044
+        ],
+        [
+          0.6166937005,
+          0.6637400044
+        ],
+        [
+          0.6312804137,
+          0.6637400044
+        ],
+        [
+          0.6458671269,
+          0.6637400044
+        ],
+        [
+          0.6604538401,
+          0.6637400044
+        ],
+        [
+          0.6750405533,
+          0.6637400044
+        ],
+        [
+          0.6896272665,
+          0.6637400044
+        ],
+        [
+          0.7042139797,
+          0.6637400044
+        ],
+        [
+          0.718800693,
+          0.6637400044
+        ],
+        [
+          0.7333874062,
+          0.6637400044
+        ],
+        [
+          0.7479741194,
+          0.6637400044
+        ],
+        [
+          0.7625608326,
+          0.6637400044
+        ],
+        [
+          0.7771475458,
+          0.6637400044
+        ],
+        [
+          0.791734259,
+          0.6637400044
+        ],
+        [
+          0.8063209722,
+          0.6637400044
+        ],
+        [
+          0.8209076854,
+          0.6637400044
+        ],
+        [
+          0.8354943987,
+          0.6637400044
+        ],
+        [
+          0.8500811119,
+          0.6637400044
+        ],
+        [
+          0.8646678251,
+          0.6637400044
+        ],
+        [
+          0.8792545383,
+          0.6637400044
+        ],
+        [
+          0.8938412515,
+          0.6637400044
+        ],
+        [
+          0.9084279647,
+          0.6637400044
+        ],
+        [
+          0.9230146779,
+          0.6637400044
+        ],
+        [
+          0.9376013911,
+          0.6637400044
+        ],
+        [
+          0.9521881044,
+          0.6637400044
+        ],
+        [
+          0.9667748176,
+          0.6637400044
+        ],
+        [
+          0.9813615308,
+          0.6637400044
+        ],
+        [
+          0.0186384587,
+          0.8372606215
+        ],
+        [
+          0.0332251719,
+          0.8372606215
+        ],
+        [
+          0.0478118852,
+          0.8372606215
+        ],
+        [
+          0.0623985984,
+          0.8372606215
+        ],
+        [
+          0.0769853116,
+          0.8372606215
+        ],
+        [
+          0.0915720248,
+          0.8372606215
+        ],
+        [
+          0.106158738,
+          0.8372606215
+        ],
+        [
+          0.1207454512,
+          0.8372606215
+        ],
+        [
+          0.1353321644,
+          0.8372606215
+        ],
+        [
+          0.1499188776,
+          0.8372606215
+        ],
+        [
+          0.1645055909,
+          0.8372606215
+        ],
+        [
+          0.1790923041,
+          0.8372606215
+        ],
+        [
+          0.1936790173,
+          0.8372606215
+        ],
+        [
+          0.2082657305,
+          0.8372606215
+        ],
+        [
+          0.2228524437,
+          0.8372606215
+        ],
+        [
+          0.2374391569,
+          0.8372606215
+        ],
+        [
+          0.2520258701,
+          0.8372606215
+        ],
+        [
+          0.2666125834,
+          0.8372606215
+        ],
+        [
+          0.2811992966,
+          0.8372606215
+        ],
+        [
+          0.2957860098,
+          0.8372606215
+        ],
+        [
+          0.310372723,
+          0.8372606215
+        ],
+        [
+          0.3249594362,
+          0.8372606215
+        ],
+        [
+          0.3395461494,
+          0.8372606215
+        ],
+        [
+          0.3541328626,
+          0.8372606215
+        ],
+        [
+          0.3687195758,
+          0.8372606215
+        ],
+        [
+          0.3833062891,
+          0.8372606215
+        ],
+        [
+          0.3978930023,
+          0.8372606215
+        ],
+        [
+          0.4124797155,
+          0.8372606215
+        ],
+        [
+          0.4270664287,
+          0.8372606215
+        ],
+        [
+          0.4416531419,
+          0.8372606215
+        ],
+        [
+          0.4562398551,
+          0.8372606215
+        ],
+        [
+          0.4708265683,
+          0.8372606215
+        ],
+        [
+          0.4854132815,
+          0.8372606215
+        ],
+        [
+          0.4999999948,
+          0.8372606215
+        ],
+        [
+          0.514586708,
+          0.8372606215
+        ],
+        [
+          0.5291734212,
+          0.8372606215
+        ],
+        [
+          0.5437601344,
+          0.8372606215
+        ],
+        [
+          0.5583468476,
+          0.8372606215
+        ],
+        [
+          0.5729335608,
+          0.8372606215
+        ],
+        [
+          0.587520274,
+          0.8372606215
+        ],
+        [
+          0.6021069872,
+          0.8372606215
+        ],
+        [
+          0.6166937005,
+          0.8372606215
+        ],
+        [
+          0.6312804137,
+          0.8372606215
+        ],
+        [
+          0.6458671269,
+          0.8372606215
+        ],
+        [
+          0.6604538401,
+          0.8372606215
+        ],
+        [
+          0.6750405533,
+          0.8372606215
+        ],
+        [
+          0.6896272665,
+          0.8372606215
+        ],
+        [
+          0.7042139797,
+          0.8372606215
+        ],
+        [
+          0.718800693,
+          0.8372606215
+        ],
+        [
+          0.7333874062,
+          0.8372606215
+        ],
+        [
+          0.7479741194,
+          0.8372606215
+        ],
+        [
+          0.7625608326,
+          0.8372606215
+        ],
+        [
+          0.7771475458,
+          0.8372606215
+        ],
+        [
+          0.791734259,
+          0.8372606215
+        ],
+        [
+          0.8063209722,
+          0.8372606215
+        ],
+        [
+          0.8209076854,
+          0.8372606215
+        ],
+        [
+          0.8354943987,
+          0.8372606215
+        ],
+        [
+          0.8500811119,
+          0.8372606215
+        ],
+        [
+          0.8646678251,
+          0.8372606215
+        ],
+        [
+          0.8792545383,
+          0.8372606215
+        ],
+        [
+          0.8938412515,
+          0.8372606215
+        ],
+        [
+          0.9084279647,
+          0.8372606215
+        ],
+        [
+          0.9230146779,
+          0.8372606215
+        ],
+        [
+          0.9376013911,
+          0.8372606215
+        ],
+        [
+          0.9521881044,
+          0.8372606215
+        ],
+        [
+          0.9667748176,
+          0.8372606215
+        ],
+        [
+          0.9813615308,
+          0.8372606215
+        ]
+      ],
+      "blackSurfaceSourceIds": [
+        86,
+        87
+      ],
+      "pixelFillRatio": 0.98,
+      "surfaceGeometry": {
+        "positions": [
+          -0.15836329666829999,
+          -0.010395742661149664,
+          0,
+          -0.15835839676959693,
+          -0.010569290669779794,
+          0,
+          -0.15834377904668426,
+          -0.010742706024031651,
+          0,
+          -0.15831956717465598,
+          -0.010915349571113854,
+          0,
+          -0.15828588482860603,
+          -0.011086582158235036,
+          0,
+          -0.15824285568362842,
+          -0.011255764632603815,
+          0,
+          -0.15819060385628858,
+          -0.011422258830494782,
+          0,
+          -0.15812928204834986,
+          -0.011585490630012938,
+          0,
+          -0.1580590885183565,
+          -0.011744987973963601,
+          0,
+          -0.15798022559350933,
+          -0.011900287920506623,
+          0,
+          -0.15789289560100908,
+          -0.012050927527801866,
+          0,
+          -0.15779730086805663,
+          -0.012196443854009174,
+          0,
+          -0.15769365565227514,
+          -0.01233637733352981,
+          0,
+          -0.15758229007962446,
+          -0.01247030119084253,
+          0,
+          -0.15746359945018623,
+          -0.012597807094330348,
+          0,
+          -0.1573379797909749,
+          -0.012718486918094114,
+          0,
+          -0.15720582712900505,
+          -0.012831932536234705,
+          0,
+          -0.15706753750952507,
+          -0.012937735866736223,
+          0,
+          -0.15692352084719838,
+          -0.013035522206978853,
+          0,
+          -0.15677422562131724,
+          -0.013125009667486557,
+          0,
+          -0.156620106960312,
+          -0.01320593236120379,
+          0,
+          -0.1564616199926129,
+          -0.01327802440107501,
+          0,
+          -0.15629921984665027,
+          -0.013341019900044665,
+          0,
+          -0.15613336859942614,
+          -0.01339465817463357,
+          0,
+          -0.15596464516644754,
+          -0.013438766038203985,
+          0,
+          -0.15579372547733825,
+          -0.013473242955071758,
+          0,
+          -0.15562128840239697,
+          -0.013497990591735641,
+          0,
+          -0.1554480273187972,
+          -0.013512909780598274,
+          0,
+          -0.1552746065599,
+          -0.01351790469058676,
+          0,
+          0.1552786020911,
+          -0.013517906376337098,
+          0,
+          0.15544889852856852,
+          -0.013513008388391045,
+          0,
+          0.15561906347983281,
+          -0.0134984054672337,
+          0,
+          0.15578845225879764,
+          -0.013474234179650962,
+          0,
+          0.15595642017936773,
+          -0.013440631092428755,
+          0,
+          0.15612232255544783,
+          -0.013397732772352976,
+          0,
+          0.1562855161192192,
+          -0.013345676434148761,
+          0,
+          0.15644543462526792,
+          -0.013284634480203728,
+          0,
+          0.1566016267881431,
+          -0.01321483183233023,
+          0,
+          0.15675365071175879,
+          -0.01313649770186911,
+          0,
+          0.15690106450002891,
+          -0.013049861300161234,
+          0,
+          0.15704342625686754,
+          -0.012955151838547445,
+          0,
+          0.15718029884035323,
+          -0.012852608550328059,
+          0,
+          0.15731129383347967,
+          -0.012742573382776819,
+          0,
+          0.15743605140348463,
+          -0.012625448539840366,
+          0,
+          0.15755421208086712,
+          -0.012501636991233647,
+          0,
+          0.15766541639612608,
+          -0.01237154170667158,
+          0,
+          0.1577693048797684,
+          -0.012235565655870511,
+          0,
+          0.1578655428111939,
+          -0.012094116232946405,
+          0,
+          0.15795389243906446,
+          -0.011947618167366924,
+          0,
+          0.15803413975810715,
+          -0.011796500433722176,
+          0,
+          0.15810607076304886,
+          -0.011641192006602252,
+          0,
+          0.15816947144861643,
+          -0.011482121860597253,
+          0,
+          0.15822412839572503,
+          -0.01131971972895616,
+          0,
+          0.1582698752482025,
+          -0.011154476254890664,
+          0,
+          0.15830662640745563,
+          -0.010986986600028625,
+          0,
+          0.1583343042222651,
+          -0.010817856211681787,
+          0,
+          0.1583528310414115,
+          -0.01064769053716192,
+          0,
+          0.15836067226285908,
+          -0.010519796047103938,
+          0,
+          0.1583632932925,
+          -0.010391915096522484,
+          0,
+          0.1583632970541,
+          0.008431816511193757,
+          0,
+          0.15835838873341837,
+          0.008607583290227023,
+          0,
+          0.15834371327781793,
+          0.008783197155856555,
+          0,
+          0.15831934505227724,
+          0.008957992139062272,
+          0,
+          0.15828535842177494,
+          0.00913130227082415,
+          0,
+          0.15824182775128964,
+          0.009302461582122116,
+          0,
+          0.15818882890848163,
+          0.009470806535307472,
+          0,
+          0.15812649258655173,
+          0.009635762301635471,
+          0,
+          0.15805501868841065,
+          0.009796866035161122,
+          0,
+          0.1579746115455262,
+          0.009953662055440057,
+          0,
+          0.1578854754893661,
+          0.010105694682027827,
+          0,
+          0.15778781485139817,
+          0.010252508234480043,
+          0,
+          0.15768186584771587,
+          0.010393640307420928,
+          0,
+          0.1575680469345972,
+          0.010528590058368564,
+          0,
+          0.15744684120964286,
+          0.010656843011045835,
+          0,
+          0.15731873184685372,
+          0.01077788467306165,
+          0,
+          0.15721119665499259,
+          0.010869506841403821,
+          0,
+          0.1570997721774,
+          0.010955881687454786,
+          0,
+          0.1544358942113,
+          0.0129231763137959,
+          0,
+          0.15429522535795342,
+          0.013020970931471023,
+          0,
+          0.154149010590547,
+          0.013110787391385915,
+          0,
+          0.15399787272341076,
+          0.013192326231043208,
+          0,
+          0.1538424342329583,
+          0.013265288140469208,
+          0,
+          0.15368326170647556,
+          0.013329399036081154,
+          0,
+          0.1535208040029985,
+          0.01338443797269723,
+          0,
+          0.15335549507894336,
+          0.0134301907316552,
+          0,
+          0.15318777369313347,
+          0.013466447381473318,
+          0,
+          0.15301819071771858,
+          0.013493098075912556,
+          0,
+          0.1528474100670761,
+          0.013510133883220275,
+          0,
+          0.1527385883080166,
+          0.013515960487409892,
+          0,
+          0.1526297246534,
+          0.013517902944875475,
+          0,
+          -0.1526342495,
+          0.013517906375666907,
+          0,
+          -0.15280543391164803,
+          0.013512999498960104,
+          0,
+          -0.15297630575359894,
+          0.013498334350452812,
+          0,
+          -0.15314618196220015,
+          0.013473994158340346,
+          0,
+          -0.1533143800837895,
+          0.013440062376986778,
+          0,
+          -0.1534802914992466,
+          0.01339664983669129,
+          0,
+          -0.1536434510009273,
+          0.013343920541013089,
+          0,
+          -0.15380340986017857,
+          0.01328204460349434,
+          0,
+          -0.1539597172619901,
+          0.013211197095010407,
+          0,
+          -0.15411187885480085,
+          0.013131656532372166,
+          0,
+          -0.1542593590878145,
+          0.013043799324699566,
+          0,
+          -0.15435139211505597,
+          0.012983141706993597,
+          0,
+          -0.1544411285966,
+          0.012919308973689828,
+          0,
+          -0.1570989726777,
+          0.010956510551533176,
+          0,
+          -0.1572348178781244,
+          0.010850095738841964,
+          0,
+          -0.15736477037547952,
+          0.010735936414130762,
+          0,
+          -0.15748836667125457,
+          0.010614512898451348,
+          0,
+          -0.1576051432669386,
+          0.010486305512855494,
+          0,
+          -0.15771463666402094,
+          0.010351794578394958,
+          0,
+          -0.15781638649453275,
+          0.010211459894715048,
+          0,
+          -0.15791004783626225,
+          0.010065762033429163,
+          0,
+          -0.157995422214135,
+          0.009915137174693585,
+          0,
+          -0.15807232059407245,
+          0.009760019926222465,
+          0,
+          -0.15814055394199597,
+          0.009600844895729972,
+          0,
+          -0.15819993322382697,
+          0.009438046690930258,
+          0,
+          -0.15825027814032627,
+          0.009272075608697871,
+          0,
+          -0.15829147693622453,
+          0.009103505061776396,
+          0,
+          -0.15832345021088284,
+          0.008932966576970064,
+          0,
+          -0.1583461187547305,
+          0.00876109202427214,
+          0,
+          -0.15835897131113594,
+          0.008596994498278377,
+          0,
+          -0.1583632707813,
+          0.008432803517984696,
+          0
+        ],
+        "indices": [
+          39,
+          40,
+          41,
+          38,
+          39,
+          41,
+          38,
+          41,
+          42,
+          37,
+          38,
+          42,
+          34,
+          35,
+          36,
+          29,
+          30,
+          31,
+          29,
+          31,
+          32,
+          29,
+          32,
+          33,
+          29,
+          33,
+          34,
+          29,
+          37,
+          42,
+          29,
+          36,
+          37,
+          29,
+          42,
+          43,
+          29,
+          43,
+          44,
+          29,
+          44,
+          45,
+          29,
+          45,
+          46,
+          29,
+          46,
+          47,
+          29,
+          47,
+          48,
+          29,
+          48,
+          49,
+          29,
+          34,
+          36,
+          29,
+          49,
+          50,
+          29,
+          50,
+          51,
+          29,
+          51,
+          52,
+          29,
+          52,
+          53,
+          29,
+          53,
+          54,
+          29,
+          54,
+          55,
+          29,
+          55,
+          56,
+          29,
+          56,
+          57,
+          58,
+          29,
+          57,
+          59,
+          29,
+          58,
+          71,
+          68,
+          69,
+          71,
+          69,
+          70,
+          72,
+          68,
+          71,
+          76,
+          59,
+          60,
+          76,
+          60,
+          61,
+          76,
+          61,
+          62,
+          76,
+          62,
+          63,
+          76,
+          63,
+          64,
+          76,
+          64,
+          65,
+          76,
+          65,
+          66,
+          76,
+          66,
+          67,
+          76,
+          67,
+          68,
+          76,
+          72,
+          73,
+          76,
+          73,
+          74,
+          76,
+          74,
+          75,
+          76,
+          68,
+          72,
+          77,
+          59,
+          76,
+          79,
+          77,
+          78,
+          85,
+          83,
+          84,
+          86,
+          83,
+          85,
+          86,
+          82,
+          83,
+          87,
+          82,
+          86,
+          87,
+          81,
+          82,
+          88,
+          81,
+          87,
+          89,
+          59,
+          77,
+          89,
+          77,
+          79,
+          89,
+          81,
+          88,
+          89,
+          79,
+          80,
+          89,
+          80,
+          81,
+          89,
+          29,
+          59,
+          28,
+          29,
+          89,
+          26,
+          27,
+          28,
+          25,
+          26,
+          28,
+          21,
+          22,
+          23,
+          21,
+          23,
+          24,
+          20,
+          24,
+          25,
+          20,
+          21,
+          24,
+          19,
+          25,
+          28,
+          19,
+          20,
+          25,
+          18,
+          19,
+          28,
+          17,
+          18,
+          28,
+          16,
+          17,
+          28,
+          15,
+          16,
+          28,
+          14,
+          15,
+          28,
+          13,
+          14,
+          28,
+          12,
+          13,
+          28,
+          11,
+          12,
+          28,
+          10,
+          11,
+          28,
+          9,
+          10,
+          28,
+          8,
+          9,
+          28,
+          7,
+          8,
+          28,
+          6,
+          7,
+          28,
+          5,
+          6,
+          28,
+          4,
+          5,
+          28,
+          3,
+          4,
+          28,
+          2,
+          3,
+          28,
+          0,
+          1,
+          2,
+          0,
+          2,
+          28,
+          90,
+          28,
+          89,
+          92,
+          90,
+          91,
+          93,
+          90,
+          92,
+          120,
+          0,
+          28,
+          120,
+          28,
+          90,
+          95,
+          90,
+          93,
+          95,
+          93,
+          94,
+          96,
+          90,
+          95,
+          97,
+          90,
+          96,
+          98,
+          90,
+          97,
+          99,
+          90,
+          98,
+          100,
+          90,
+          99,
+          101,
+          90,
+          100,
+          102,
+          120,
+          90,
+          102,
+          90,
+          101,
+          103,
+          111,
+          112,
+          103,
+          112,
+          113,
+          103,
+          113,
+          114,
+          103,
+          114,
+          115,
+          103,
+          115,
+          116,
+          103,
+          116,
+          117,
+          103,
+          117,
+          118,
+          103,
+          118,
+          119,
+          103,
+          119,
+          120,
+          103,
+          120,
+          102,
+          108,
+          109,
+          110,
+          107,
+          110,
+          111,
+          107,
+          111,
+          103,
+          107,
+          108,
+          110,
+          105,
+          103,
+          104,
+          106,
+          103,
+          105,
+          106,
+          107,
+          103
+        ],
+        "uv": [
+          1.740302235653246e-09,
+          0.11548252028427736,
+          1.547217691566516e-05,
+          0.10906333071184515,
+          6.162467300957486e-05,
+          0.10264904775636857,
+          0.00013806874955185622,
+          0.09626331238593472,
+          0.0002444139275107893,
+          0.08992976556863036,
+          0.000380269727854432,
+          0.08367204827254271,
+          0.0005452442776940902,
+          0.07751376488221051,
+          0.0007388554521751689,
+          0.07147615100448856,
+          0.0009604772901445902,
+          0.06557666707954901,
+          0.001209470984491201,
+          0.05983243638904967,
+          0.0014851977281039597,
+          0.05426058221464791,
+          0.0017870187138717686,
+          0.048878227838001886,
+          0.0021142574667938896,
+          0.04370237166043306,
+          0.0024658716810910253,
+          0.0387487992446649,
+          0.0028406132769095427,
+          0.034032613950733315,
+          0.0032372318792527333,
+          0.029568911529587683,
+          0.003654477113123722,
+          0.025372787732176494,
+          0.004091098545955796,
+          0.02145933668629668,
+          0.004545801955316731,
+          0.017842417883444928,
+          0.005017171358778327,
+          0.014532457844786462,
+          0.005503769780607182,
+          0.011539291194341883,
+          0.006004160245070167,
+          0.008872752556131513,
+          0.006516905776433823,
+          0.0065426765541763965,
+          0.007040547460258562,
+          0.004558705342739666,
+          0.007573257488216523,
+          0.0029272447450159333,
+          0.008112901749577017,
+          0.0016520133724746144,
+          0.008657336849025254,
+          0.0007366483822965342,
+          0.009204373588730275,
+          0.00018481778318979458,
+          0.009751914470809808,
+          6.61725753636766e-08,
+          0.9902607006087893,
+          3.820082417060888e-09,
+          0.9907983770794695,
+          0.00018117048052052054,
+          0.991335638409121,
+          0.0007213029773448509,
+          0.9918704491321196,
+          0.0016153499815605432,
+          0.9924007737828413,
+          0.0028582601641718997,
+          0.9929245768956614,
+          0.004444982196184277,
+          0.9934398274828766,
+          0.006370440782641873,
+          0.9939447377394087,
+          0.008628259108174718,
+          0.9944378828229525,
+          0.011210117770192929,
+          0.9949178675362191,
+          0.014107538705129874,
+          0.9953832966819188,
+          0.0173120438494182,
+          0.9958327750627627,
+          0.02081515513949117,
+          0.9962649224917719,
+          0.024608023819786218,
+          0.9966785126210077,
+          0.02867800195275988,
+          0.9970724093514858,
+          0.03301021282849964,
+          0.9974454777311454,
+          0.03758975141287346,
+          0.997796582807926,
+          0.04240171267175036,
+          0.9981245896297919,
+          0.047431191570946385,
+          0.9984284413843183,
+          0.05266311942669094,
+          0.9987073874198639,
+          0.05808178635564132,
+          0.9989607520581723,
+          0.06367132545596804,
+          0.9991878596209871,
+          0.06941586982584202,
+          0.999388034430052,
+          0.07529955256343396,
+          0.9995606026578807,
+          0.08130647870565805,
+          0.9997050390685916,
+          0.0874185003531916,
+          0.9998210734019835,
+          0.09361360368204658,
+          0.9999084604900759,
+          0.09986939442160636,
+          0.9999669551648891,
+          0.10616347830125378,
+          0.9999917122316628,
+          0.11089403662590402,
+          0.9999999876012937,
+          0.11562409415272179,
+          0.9999999994777831,
+          0.8118758264790569,
+          0.99998450245048,
+          0.8183770838778377,
+          0.9999381676751308,
+          0.8248726853193162,
+          0.9998612299440766,
+          0.8313379979573824,
+          0.9997539240496582,
+          0.8377483889459284,
+          0.9996164847842174,
+          0.8440792254388446,
+          0.9994491516845077,
+          0.8503059645215276,
+          0.9992523373878102,
+          0.8564073444421809,
+          0.9990266730470316,
+          0.8623662454661146,
+          0.99877280379735,
+          0.8681658128960037,
+          0.9984913747739427,
+          0.8737891920345198,
+          0.9981830311119875,
+          0.879219528184337,
+          0.9978485186159025,
+          0.8844397179065289,
+          0.997489158476536,
+          0.8894312360514105,
+          0.9971064759766056,
+          0.8941750531828083,
+          0.996701996640047,
+          0.8986521392685248,
+          0.9963624760764151,
+          0.9020410578292624,
+          0.996010675881708,
+          0.9052358885591987,
+          0.9876000213523074,
+          0.978002134919448,
+          0.9871558879709734,
+          0.9816193598877738,
+          0.986694244490528,
+          0.9849414889485988,
+          0.9862170573209317,
+          0.9879574455902669,
+          0.9857262918052421,
+          0.9906561589426643,
+          0.9852237368279291,
+          0.9930274912088188,
+          0.9847108095703844,
+          0.9950632700736552,
+          0.984188880162,
+          0.996755572022443,
+          0.9836593338947945,
+          0.9980966321145803,
+          0.9831239100358815,
+          0.9990823873600182,
+          0.9825847047602874,
+          0.9997125073913045,
+          0.982241122121601,
+          0.9999280216870425,
+          0.9818974072061881,
+          0.9999998692570975,
+          0.018088306508165286,
+          0.9999999961551286,
+          0.017547826439065828,
+          0.9998185007174215,
+          0.01700833324540596,
+          0.9992760665568727,
+          0.016471983562165504,
+          0.9983757721159707,
+          0.015940932098402916,
+          0.9971207042027278,
+          0.015417100445582643,
+          0.9955149622055868,
+          0.014901957402512045,
+          0.9935646122842543,
+          0.014396919738925318,
+          0.9912759465943395,
+          0.013903410811806738,
+          0.988655440653173,
+          0.013422991435971643,
+          0.9857133962338622,
+          0.012957352504467112,
+          0.9824637359478896,
+          0.012666776882282627,
+          0.9802201334419307,
+          0.012383452137472384,
+          0.9778590898365461,
+          0.003991848376481977,
+          0.905259148968617,
+          0.0035629447011685245,
+          0.9013230804342003,
+          0.0031526460409461166,
+          0.8971005580753075,
+          0.002762415798380158,
+          0.8926093479954587,
+          0.0023937173760361086,
+          0.8878672162981731,
+          0.0020480141764792625,
+          0.8828919290869706,
+          0.0017267597182230587,
+          0.8777012331796004,
+          0.0014310430232123417,
+          0.8723121641878306,
+          0.0011614907362502702,
+          0.8667408555327993,
+          0.000918699694109848,
+          0.861003382474193,
+          0.0007032667335642451,
+          0.8551158202716982,
+          0.0005157886913865761,
+          0.8490942441850016,
+          0.00035683482586590376,
+          0.8429553097840773,
+          0.00022675798160448624,
+          0.8367202264457043,
+          0.00012580885002011488,
+          0.8304123530681407,
+          5.423751927091658e-05,
+          0.8240550612435118,
+          1.3658178504738494e-05,
+          0.8179854258957155,
+          8.347325569646458e-08,
+          0.8119123338625199
+        ]
+      },
+      "fullBleed": false,
+      "pixelSideMm": 4.5276,
+      "edgeTreatment": "uniform 1:1 solid-color pixels at original CAD anchors; same-size decorative perimeter tiles softly fade to black within exact glass outline"
+    },
+    "baseSourceIds": [
+      105,
+      106,
+      274,
+      279,
+      280,
+      281,
+      282,
+      9001
+    ],
+    "parkOffsetMeters": [
+      0,
+      0.07,
+      -0.14
+    ],
+    "motionDurationMs": 1100,
+    "defaultModule": "screen"
+  },
+  "simplificationPolicy": "Original top decks and positioning plates retained; flatten only original bottom face within its CAD outer wire"
+}

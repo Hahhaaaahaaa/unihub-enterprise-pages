@@ -1,0 +1,1 @@
+import{o as e}from"./lightingEngine-BYILabTv.js";function t(t,n=1){let r=t.map(e=>Math.max(0,Math.min(255,Number.isFinite(e)?e:0))),i=Math.max(...r),a=i-Math.min(...r),o=i/255*Math.max(0,Math.min(1,Number.isFinite(n)?n:0));return!a||!o?{rgb:[0,0,0],opacity:0}:{rgb:e(r),opacity:o**.32}}export{t};

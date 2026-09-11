@@ -1,0 +1,1 @@
+var e=4.5,t=e/1e3;function n(t,n){if(!Number.isFinite(t)||!Number.isFinite(n)||n<=0)throw TypeError(`Invalid keyboard travel range`);return Math.max(0,Math.min(1,t/n))*e}export{e as n,n as r,t};
