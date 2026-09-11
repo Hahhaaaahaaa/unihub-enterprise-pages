@@ -1,0 +1,1456 @@
+{
+  "sourceFile": "TK52YU08006G-364452Y221-cool68 本.pdf",
+  "sourceSha256": "659325c8f19d0ddbe848c85041959d3c2e4f650ab5a400904620623091edf207",
+  "page": 1,
+  "atlasWidth": 4096,
+  "atlasHeight": 2048,
+  "keys": {
+    "Escape": {
+      "x": 0,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        149,
+        150,
+        151
+      ],
+      "pdfCell": [
+        227.54558394711626,
+        320.67677080694807,
+        278.5394422150727,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Esc",
+      "row": 0,
+      "column": 0
+    },
+    "Digit1": {
+      "x": 256,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        16,
+        17
+      ],
+      "pdfCell": [
+        281.5455839471163,
+        320.67677080694807,
+        332.5394422150727,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "1",
+      "row": 0,
+      "column": 1
+    },
+    "Digit2": {
+      "x": 512,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        18,
+        19
+      ],
+      "pdfCell": [
+        335.5455839471163,
+        320.67677080694807,
+        386.5394422150727,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "2",
+      "row": 0,
+      "column": 2
+    },
+    "Digit3": {
+      "x": 768,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        20,
+        21
+      ],
+      "pdfCell": [
+        389.5455839471163,
+        320.67677080694807,
+        440.5394422150727,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "3",
+      "row": 0,
+      "column": 3
+    },
+    "Digit4": {
+      "x": 1024,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        22,
+        23
+      ],
+      "pdfCell": [
+        443.5455839471163,
+        320.67677080694807,
+        494.5394422150727,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "4",
+      "row": 0,
+      "column": 4
+    },
+    "Digit5": {
+      "x": 1280,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        24,
+        25
+      ],
+      "pdfCell": [
+        497.5455839471163,
+        320.67677080694807,
+        548.5394422150728,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "5",
+      "row": 0,
+      "column": 5
+    },
+    "Digit6": {
+      "x": 1536,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        26,
+        27
+      ],
+      "pdfCell": [
+        551.5455839471163,
+        320.67677080694807,
+        602.5394422150728,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "6",
+      "row": 0,
+      "column": 6
+    },
+    "Digit7": {
+      "x": 1792,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        28,
+        29
+      ],
+      "pdfCell": [
+        605.5455839471248,
+        320.67677080694807,
+        656.5394422150813,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "7",
+      "row": 0,
+      "column": 7
+    },
+    "Digit8": {
+      "x": 2048,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        30,
+        31
+      ],
+      "pdfCell": [
+        659.5455839471163,
+        320.67677080694807,
+        710.5394422150728,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "8",
+      "row": 0,
+      "column": 8
+    },
+    "Digit9": {
+      "x": 2304,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        32,
+        33
+      ],
+      "pdfCell": [
+        713.5455839471164,
+        320.67677080694807,
+        764.5394422150729,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "9",
+      "row": 0,
+      "column": 9
+    },
+    "Digit0": {
+      "x": 2560,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        34,
+        35
+      ],
+      "pdfCell": [
+        767.5455839471163,
+        320.67677080694807,
+        818.5394422150728,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "0",
+      "row": 0,
+      "column": 10
+    },
+    "Minus": {
+      "x": 2816,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        36,
+        37
+      ],
+      "pdfCell": [
+        821.5455839471164,
+        320.67677080694807,
+        872.5394422150729,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "-",
+      "row": 0,
+      "column": 11
+    },
+    "Equal": {
+      "x": 3072,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        38,
+        39
+      ],
+      "pdfCell": [
+        875.5455839471164,
+        320.67677080694807,
+        926.5394422150729,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "=",
+      "row": 0,
+      "column": 12
+    },
+    "Backspace": {
+      "x": 3328,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "pdfCell": [
+        929.624232369071,
+        320.67528644894486,
+        1034.4607678021418,
+        371.6691447166614
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Back",
+      "row": 0,
+      "column": 13
+    },
+    "Insert": {
+      "x": 3584,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        143,
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "pdfCell": [
+        1037.5455839471163,
+        320.67677080694807,
+        1088.5394422150728,
+        371.67062907490435
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Insert",
+      "row": 0,
+      "column": 14
+    },
+    "Tab": {
+      "x": 3840,
+      "y": 0,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "pdfCell": [
+        227.65761029141333,
+        374.67528886242394,
+        305.4300827323582,
+        425.6691471305103
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Tab",
+      "row": 1,
+      "column": 0
+    },
+    "KeyQ": {
+      "x": 0,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        0
+      ],
+      "pdfCell": [
+        308.5484957750669,
+        374.67677013576446,
+        359.5422973498701,
+        425.6706284037206
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Q",
+      "row": 1,
+      "column": 1
+    },
+    "KeyW": {
+      "x": 256,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        1
+      ],
+      "pdfCell": [
+        362.548495775067,
+        374.6767701357645,
+        413.5422973498701,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "W",
+      "row": 1,
+      "column": 2
+    },
+    "KeyE": {
+      "x": 512,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        2
+      ],
+      "pdfCell": [
+        416.54849577518036,
+        374.6767701357645,
+        467.54229734998347,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "E",
+      "row": 1,
+      "column": 3
+    },
+    "KeyR": {
+      "x": 768,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        3
+      ],
+      "pdfCell": [
+        470.54849577518036,
+        374.6767701357645,
+        521.5422973499835,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "R",
+      "row": 1,
+      "column": 4
+    },
+    "KeyT": {
+      "x": 1024,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        4
+      ],
+      "pdfCell": [
+        524.5484957751803,
+        374.6767701357645,
+        575.5422973499835,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "T",
+      "row": 1,
+      "column": 5
+    },
+    "KeyY": {
+      "x": 1280,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        5
+      ],
+      "pdfCell": [
+        578.5484957751803,
+        374.6767701357645,
+        629.5422973499835,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Y",
+      "row": 1,
+      "column": 6
+    },
+    "KeyU": {
+      "x": 1536,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        6
+      ],
+      "pdfCell": [
+        632.5484957751803,
+        374.6767701357645,
+        683.5422973499835,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "U",
+      "row": 1,
+      "column": 7
+    },
+    "KeyI": {
+      "x": 1792,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        7
+      ],
+      "pdfCell": [
+        686.548495775191,
+        374.6767701357645,
+        737.5422973499942,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "I",
+      "row": 1,
+      "column": 8
+    },
+    "KeyO": {
+      "x": 2048,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        8
+      ],
+      "pdfCell": [
+        740.5484957751803,
+        374.6767701357645,
+        791.5422973499835,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "O",
+      "row": 1,
+      "column": 9
+    },
+    "KeyP": {
+      "x": 2304,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        9
+      ],
+      "pdfCell": [
+        794.5484957751804,
+        374.6767701357645,
+        845.5422973499836,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "P",
+      "row": 1,
+      "column": 10
+    },
+    "BracketLeft": {
+      "x": 2560,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        10,
+        11
+      ],
+      "pdfCell": [
+        848.5484957751803,
+        374.6767701357645,
+        899.5422973499835,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "[",
+      "row": 1,
+      "column": 11
+    },
+    "BracketRight": {
+      "x": 2816,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        12,
+        13
+      ],
+      "pdfCell": [
+        902.5484957751803,
+        374.6767701357645,
+        953.5422973499835,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "]",
+      "row": 1,
+      "column": 12
+    },
+    "Backslash": {
+      "x": 3072,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        14,
+        15
+      ],
+      "pdfCell": [
+        956.6604449370827,
+        374.67528886242394,
+        1034.4329173780277,
+        425.6691471305103
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "\\",
+      "row": 1,
+      "column": 13
+    },
+    "Delete": {
+      "x": 3328,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
+      ],
+      "pdfCell": [
+        1037.5456611293978,
+        374.6767701357645,
+        1088.5394627042008,
+        425.6706284037207
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Delete",
+      "row": 1,
+      "column": 14
+    },
+    "CapsLock": {
+      "x": 3584,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "pdfCell": [
+        227.42734016724626,
+        428.6752861648519,
+        319.15916693913994,
+        479.6691444330058
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Caps Lock",
+      "row": 2,
+      "column": 0
+    },
+    "KeyA": {
+      "x": 3840,
+      "y": 256,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        53
+      ],
+      "pdfCell": [
+        322.0468957712462,
+        428.67676972708546,
+        373.0408957714865,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "A",
+      "row": 2,
+      "column": 1
+    },
+    "KeyS": {
+      "x": 0,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        54
+      ],
+      "pdfCell": [
+        376.0468957712462,
+        428.67676972708546,
+        427.0408957714865,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "S",
+      "row": 2,
+      "column": 2
+    },
+    "KeyD": {
+      "x": 256,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        55
+      ],
+      "pdfCell": [
+        430.0468957711329,
+        428.67676972708546,
+        481.04089577137313,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "D",
+      "row": 2,
+      "column": 3
+    },
+    "KeyF": {
+      "x": 512,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        56
+      ],
+      "pdfCell": [
+        484.0468957712462,
+        428.6767697270935,
+        535.0408957714865,
+        479.6706279950492
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "F",
+      "row": 2,
+      "column": 4
+    },
+    "KeyG": {
+      "x": 768,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        57
+      ],
+      "pdfCell": [
+        538.0468957711329,
+        428.67676972708546,
+        589.0408957713731,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "G",
+      "row": 2,
+      "column": 5
+    },
+    "KeyH": {
+      "x": 1024,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        58
+      ],
+      "pdfCell": [
+        592.0468957711329,
+        428.67676972708546,
+        643.0408957713731,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "H",
+      "row": 2,
+      "column": 6
+    },
+    "KeyJ": {
+      "x": 1280,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        59
+      ],
+      "pdfCell": [
+        646.0468957711329,
+        428.6767697270935,
+        697.0408957713731,
+        479.6706279950492
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "J",
+      "row": 2,
+      "column": 7
+    },
+    "KeyK": {
+      "x": 1536,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        60
+      ],
+      "pdfCell": [
+        700.046895771146,
+        428.67676972708546,
+        751.0408957713862,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "K",
+      "row": 2,
+      "column": 8
+    },
+    "KeyL": {
+      "x": 1792,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        61
+      ],
+      "pdfCell": [
+        754.046895771133,
+        428.67676972708546,
+        805.0408957713732,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "L",
+      "row": 2,
+      "column": 9
+    },
+    "Semicolon": {
+      "x": 2048,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        62,
+        63
+      ],
+      "pdfCell": [
+        808.0468957711329,
+        428.67676972708546,
+        859.0408957713731,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": ";",
+      "row": 2,
+      "column": 10
+    },
+    "Quote": {
+      "x": 2304,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        64,
+        65,
+        66
+      ],
+      "pdfCell": [
+        862.0468957711329,
+        428.67676972708546,
+        913.0408957713731,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "'",
+      "row": 2,
+      "column": 11
+    },
+    "Enter": {
+      "x": 2560,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        96
+      ],
+      "pdfCell": [
+        915.9006210519586,
+        428.62749206713346,
+        1034.736791130459,
+        479.7171330114466
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Enter",
+      "row": 2,
+      "column": 12
+    },
+    "PageUp": {
+      "x": 2816,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        129,
+        130,
+        131,
+        132
+      ],
+      "pdfCell": [
+        1037.5454784484118,
+        428.67676972708546,
+        1088.539478448652,
+        479.6706279950412
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Pg Up",
+      "row": 2,
+      "column": 13
+    },
+    "ShiftLeft": {
+      "x": 3072,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "pdfCell": [
+        227.62222513480327,
+        482.67528726107753,
+        345.9647133237797,
+        533.6691455293608
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Shift",
+      "row": 3,
+      "column": 0
+    },
+    "KeyZ": {
+      "x": 3328,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        40
+      ],
+      "pdfCell": [
+        349.0696375263307,
+        482.6767704296913,
+        400.06363752633075,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Z",
+      "row": 3,
+      "column": 1
+    },
+    "KeyX": {
+      "x": 3584,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        41
+      ],
+      "pdfCell": [
+        403.0696375263307,
+        482.6767704296913,
+        454.06363752633075,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "X",
+      "row": 3,
+      "column": 2
+    },
+    "KeyC": {
+      "x": 3840,
+      "y": 512,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        42
+      ],
+      "pdfCell": [
+        457.06963752641576,
+        482.6767704296913,
+        508.0636375264158,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "C",
+      "row": 3,
+      "column": 3
+    },
+    "KeyV": {
+      "x": 0,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        43
+      ],
+      "pdfCell": [
+        511.06963752641576,
+        482.6767704296913,
+        562.0636375264157,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "V",
+      "row": 3,
+      "column": 4
+    },
+    "KeyB": {
+      "x": 256,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        44
+      ],
+      "pdfCell": [
+        565.0696375264158,
+        482.6767704296913,
+        616.0636375264157,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "B",
+      "row": 3,
+      "column": 5
+    },
+    "KeyN": {
+      "x": 512,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        45
+      ],
+      "pdfCell": [
+        619.0696375264158,
+        482.6767704296913,
+        670.0636375264157,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "N",
+      "row": 3,
+      "column": 6
+    },
+    "KeyM": {
+      "x": 768,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        46
+      ],
+      "pdfCell": [
+        673.0696375264158,
+        482.6767704296913,
+        724.0636375264157,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "M",
+      "row": 3,
+      "column": 7
+    },
+    "Comma": {
+      "x": 1024,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        47,
+        48
+      ],
+      "pdfCell": [
+        727.0696375264101,
+        482.6767704296913,
+        778.06363752641,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": ",",
+      "row": 3,
+      "column": 8
+    },
+    "Period": {
+      "x": 1280,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        49,
+        50
+      ],
+      "pdfCell": [
+        781.0696375264158,
+        482.6767704296913,
+        832.0636375264157,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": ".",
+      "row": 3,
+      "column": 9
+    },
+    "Slash": {
+      "x": 1536,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        51,
+        52
+      ],
+      "pdfCell": [
+        835.0696375264159,
+        482.6767704296913,
+        886.0636375264158,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "/",
+      "row": 3,
+      "column": 10
+    },
+    "ShiftRight": {
+      "x": 1792,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "pdfCell": [
+        888.940096072758,
+        482.67528616485197,
+        980.6719228446518,
+        533.6691444330058
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Shift",
+      "row": 3,
+      "column": 11
+    },
+    "ArrowUp": {
+      "x": 2048,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        125
+      ],
+      "pdfCell": [
+        983.5455430382267,
+        482.6767704296913,
+        1034.5395430382268,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "↑",
+      "row": 3,
+      "column": 12
+    },
+    "PageDown": {
+      "x": 2304,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        133,
+        134,
+        135,
+        136
+      ],
+      "pdfCell": [
+        1037.545543038142,
+        482.6767704296913,
+        1088.539543038142,
+        533.6706286974079
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Pg Dn",
+      "row": 3,
+      "column": 13
+    },
+    "ControlLeft": {
+      "x": 2560,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        77,
+        78,
+        79,
+        80
+      ],
+      "pdfCell": [
+        227.54551433182115,
+        536.6767709509114,
+        292.03812535544324,
+        587.6706292189327
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Ctrl",
+      "row": 4,
+      "column": 0
+    },
+    "MetaLeft": {
+      "x": 2816,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        87,
+        88,
+        89
+      ],
+      "pdfCell": [
+        295.0469316546557,
+        536.6767709509114,
+        359.53954267827777,
+        587.6706292189327
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Win",
+      "row": 4,
+      "column": 1
+    },
+    "AltLeft": {
+      "x": 3072,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        81,
+        82,
+        83
+      ],
+      "pdfCell": [
+        362.5483489774903,
+        536.6767709509114,
+        427.0409600011124,
+        587.6706292189327
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Alt",
+      "row": 4,
+      "column": 2
+    },
+    "Space": {
+      "x": 3328,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [],
+      "pdfCell": [
+        430.402040059559,
+        536.6618889456504,
+        764.1815676186142,
+        587.6855109928945
+      ],
+      "blank": true,
+      "source": "pdf-vector-outlines",
+      "label": "",
+      "row": 4,
+      "column": 3
+    },
+    "AltRight": {
+      "x": 3584,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        84,
+        85,
+        86
+      ],
+      "pdfCell": [
+        767.5455430382267,
+        536.6767704296914,
+        818.5395430382268,
+        587.670628697408
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Alt",
+      "row": 4,
+      "column": 4
+    },
+    "Fn": {
+      "x": 3840,
+      "y": 768,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        94,
+        95
+      ],
+      "pdfCell": [
+        821.2620784712976,
+        536.6767704296914,
+        872.2560784712978,
+        587.670628697408
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Fn",
+      "row": 4,
+      "column": 5
+    },
+    "ControlRight": {
+      "x": 0,
+      "y": 1024,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "pdfCell": [
+        875.5455430382269,
+        536.6767704296914,
+        926.5395430382268,
+        587.670628697408
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "Ctrl",
+      "row": 4,
+      "column": 6
+    },
+    "ArrowLeft": {
+      "x": 256,
+      "y": 1024,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        127
+      ],
+      "pdfCell": [
+        929.5455430382269,
+        536.6767704296914,
+        980.5395430382268,
+        587.670628697408
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "←",
+      "row": 4,
+      "column": 7
+    },
+    "ArrowDown": {
+      "x": 512,
+      "y": 1024,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        126
+      ],
+      "pdfCell": [
+        983.5455430382267,
+        536.6767704296914,
+        1034.5395430382268,
+        587.670628697408
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "↓",
+      "row": 4,
+      "column": 8
+    },
+    "ArrowRight": {
+      "x": 768,
+      "y": 1024,
+      "w": 256,
+      "h": 256,
+      "sourceDrawingIds": [
+        128
+      ],
+      "pdfCell": [
+        1037.545543038142,
+        536.6767704296914,
+        1088.539543038142,
+        587.670628697408
+      ],
+      "blank": false,
+      "source": "pdf-vector-outlines",
+      "label": "→",
+      "row": 4,
+      "column": 9
+    }
+  },
+  "vectorPathCount": 152,
+  "blankKeys": [
+    "Space"
+  ]
+}
