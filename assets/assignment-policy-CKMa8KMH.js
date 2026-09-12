@@ -1,0 +1,1 @@
+import{m as e,t}from"./keyboard-MANiyFcW.js";var n=Object.freeze([{value:e.Normal,label:`默认`},{value:e.Fn1,label:`Fn1`}]),r=e=>/^fn\d*$/i.test(e||``),i=new Set(t.filter(e=>r(e.legend)).map(e=>e.keycode));function a(e,t){return!!e&&!r(e.label)&&!r(e.physicalCode)&&!i.has(t)}export{a as n,n as t};
