@@ -1,0 +1,1 @@
+import{t as e}from"./device-identity-BQyDzhKQ.js";import{r as t,t as n}from"./connect-CEcnRScM.js";var r=t,i=t=>n(t,{name:`COOL68`,vendorId:Number(e.vendorId),productId:Number(e.productId),uuid:Number(e.uuid)});export{i as connectKeyboard,r as waitForDisconnect};
