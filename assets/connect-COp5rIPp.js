@@ -1,0 +1,1 @@
+import{t as e}from"./device-identity-ytH8aWdR.js";import{connectBytechMagnetic as t,waitForCool75Disconnect as n}from"./connect-6B6O10pu.js";var r=n,i=n=>t(n,{name:`COOL68`,vendorId:Number(e.vendorId),productId:Number(e.productId),uuid:Number(e.uuid)});export{i as connectKeyboard,r as waitForDisconnect};
